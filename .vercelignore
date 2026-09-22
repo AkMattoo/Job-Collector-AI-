@@ -1,0 +1,6 @@
+collector/
+tests/
+data/
+requirements.txt
+requirements-dev.txt
+profile.md
