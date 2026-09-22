@@ -1,0 +1,7 @@
+{"jobs": [
+ {"title": " Analytics Engineer", "location": "New York, NY (HQ)", "jobUrl": "https://jobs.ashbyhq.com/ramp/a1",
+  "publishedAt": "2026-09-15T00:00:00Z", "isListed": true, "employmentType": "FullTime",
+  "descriptionPlain": "dbt   and\n\nSQL", "compensation": {"compensationTierSummary": "$137K – $180K"}},
+ {"title": "Data Scientist", "location": "Remote", "jobUrl": "https://jobs.ashbyhq.com/ramp/a2",
+  "publishedAt": "2026-09-15T00:00:00Z", "isListed": false, "descriptionPlain": "hidden"}
+]}

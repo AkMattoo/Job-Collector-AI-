@@ -1,0 +1,15 @@
+{"jobs": [
+ {"absolute_url": "https://gh/acme/1", "company_name": "Acme", "title": "Data Engineer, People Analytics",
+  "location": {"name": "Seattle, WA"}, "first_published": "2026-09-19T10:00:00-04:00",
+  "content": "&lt;p&gt;Build &lt;b&gt;ETL&lt;/b&gt; in BigQuery. Pay: $120,000&amp;ndash;$150,000&lt;/p&gt;"},
+ {"absolute_url": "https://gh/acme/2", "company_name": "Acme", "title": "Senior Data Engineer",
+  "location": {"name": "Remote"}, "first_published": "2026-09-20T00:00:00Z", "content": "10 yrs"},
+ {"absolute_url": "https://gh/acme/3", "company_name": "Acme", "title": "Data Scientist",
+  "location": {"name": "Remote - US"}, "first_published": "2023-01-01T00:00:00Z", "content": "ghost"},
+ {"absolute_url": "https://gh/acme/4", "company_name": "Acme", "title": "Software Engineer, Data Platform",
+  "location": {"name": "Remote"}, "first_published": "2026-09-20T00:00:00Z", "content": "swe"},
+ {"absolute_url": "https://gh/acme/5", "company_name": "Acme", "title": "Data Analyst, Payments",
+  "location": {"name": "Singapore"}, "first_published": "2026-09-20T00:00:00Z", "content": "sg"},
+ {"absolute_url": "https://gh/acme/6", "company_name": "Acme", "title": "Account Executive",
+  "location": {"name": "New York, NY"}, "first_published": "2026-09-20T00:00:00Z", "content": "sales"}
+]}

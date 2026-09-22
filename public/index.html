@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Radar</title>
+<meta name="description" content="A job-search agent: a daily pipeline pulls data roles from company job boards, scores them against a resume with Gemini, and answers questions about them.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-inner">
+    <div>
+      <h1>Job Radar</h1>
+      <p class="sub">Every morning a pipeline pulls data roles from company job boards, filters them, and scores each one against my resume. This page is what it found.</p>
+    </div>
+    <dl class="stats" id="stats">
+      <div><dt>Matches</dt><dd id="stat-count">–</dd></div>
+      <div><dt>Still open</dt><dd id="stat-open">–</dd></div>
+      <div><dt>Updated</dt><dd id="stat-updated">–</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main class="wrap layout">
+  <section class="results" aria-labelledby="results-h">
+    <div class="toolbar">
+      <h2 id="results-h">Matches</h2>
+      <div class="controls">
+        <input id="q" type="search" placeholder="Filter by role, company, place" aria-label="Filter matches">
+        <label class="check"><input id="open-only" type="checkbox" checked> Still open only</label>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th class="num">Fit</th><th>Role</th><th>Location</th><th>Pay</th><th>Posted</th><th></th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p class="empty" id="empty" hidden></p>
+  </section>
+
+  <aside class="side">
+    <section class="panel chat" aria-labelledby="chat-h">
+      <h2 id="chat-h">Ask about these jobs</h2>
+      <div class="log" id="log" aria-live="polite">
+        <div class="msg bot">Ask me anything about the matches. Try one of these:</div>
+        <div class="chips" id="chips">
+          <button type="button">Best remote roles still open?</button>
+          <button type="button">Which ones state their pay?</button>
+          <button type="button">What's the culture like at these companies?</button>
+        </div>
+      </div>
+      <form id="chat-form" class="chat-form">
+        <input id="chat-in" autocomplete="off" maxlength="800" placeholder="Ask a question" aria-label="Your question">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="panel" aria-labelledby="resume-h">
+      <h2 id="resume-h">Try it with your resume</h2>
+      <p class="muted">Upload a PDF and the open matches are rescored against it. The file is read in your browser; only its text is sent for scoring, and nothing is stored.</p>
+      <label class="upload">
+        <input id="resume" type="file" accept="application/pdf">
+        <span id="resume-label">Choose a PDF</span>
+      </label>
+      <div id="match-out"></div>
+    </section>
+  </aside>
+</main>
+
+<section class="wrap how" aria-labelledby="how-h">
+  <h2 id="how-h">How it works</h2>
+  <ol class="flow">
+    <li><b>Collect</b><span>GitHub Actions runs a Python job daily. It pulls public JSON from Greenhouse, Lever and Ashby boards.</span></li>
+    <li><b>Normalize</b><span>Three API shapes become one schema, so nothing downstream knows which board a job came from.</span></li>
+    <li><b>Filter</b><span>Title, location and posting-age rules drop most postings before any AI call. Cheap work first.</span></li>
+    <li><b>Score</b><span>Survivors go to Gemini in batches with a strict JSON schema: fit score, reason, tailored resume bullets.</span></li>
+    <li><b>Store</b><span>A job is recorded only after it's scored, so a failed AI call means a retry tomorrow, never a silently lost job.</span></li>
+    <li><b>Serve</b><span>Results are committed as JSON and served statically. The chat is a serverless agent with a search tool over that data.</span></li>
+  </ol>
+  <p class="muted">Signals like <em>posted</em> and <em>still open</em> are measured from the boards. The model is never asked to guess things it can't know, like pay a posting doesn't state or a company's culture.</p>
+</section>
+
+<footer class="wrap foot">Built by Akanksha · Python, GitHub Actions, Gemini, Vercel</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
