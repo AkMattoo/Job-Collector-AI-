@@ -52,6 +52,33 @@ const JOBS_PATHS = [
   "../public/data/jobs.json",
 ];
 
+// Rate limiting. Honest caveat: Vercel may run several instances of a function,
+// and each keeps its own counters, so the real cap is per-instance and a
+// determined abuser could exceed it. It stops ordinary over-use, which is the
+// point: one visitor clicking around must not drain the day's Gemini quota.
+const PER_IP_PER_DAY = Number(process.env.CHAT_PER_IP_PER_DAY || 20);
+const TOTAL_PER_DAY = Number(process.env.CHAT_TOTAL_PER_DAY || 200);
+const counts = new Map();           // ip -> n, for the current day
+let day = "";
+let total = 0;
+
+export function rateLimit(req, today = new Date().toISOString().slice(0, 10)) {
+  if (today !== day) { day = today; counts.clear(); total = 0; }
+  if (total >= TOTAL_PER_DAY) {
+    throw new HttpError(429, "This demo has hit its daily AI budget. Try again tomorrow.");
+  }
+  const ip = String(req.headers["x-forwarded-for"] || "unknown").split(",")[0].trim();
+  const n = (counts.get(ip) || 0) + 1;
+  if (n > PER_IP_PER_DAY) {
+    throw new HttpError(429, `You've used today's ${PER_IP_PER_DAY} questions on this demo. Try again tomorrow.`);
+  }
+  counts.set(ip, n);
+  total += 1;
+}
+
+// Test-only: lets a test start from a clean slate.
+export function _resetRateLimit() { day = ""; counts.clear(); total = 0; }
+
 export async function loadJobs(req, fetchImpl = fetch) {
   const { readFile } = await import("node:fs/promises");
   const { join } = await import("node:path");
