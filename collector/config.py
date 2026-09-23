@@ -15,10 +15,12 @@ COMPANIES = [
 ]
 
 # ---- Cheap filters (run BEFORE any AI call) --------------------------------
-MUST_MATCH_TITLE = [
-    "data engineer", "analytics engineer", "data scientist", "data analyst",
-    "machine learning engineer", "ml engineer", "people analytics",
-    "business intelligence",
+ROLE_KEYWORDS = ["data analyst", "data engineer", "data scientist",
+                 "analytics engineer", "business analyst",
+                 "quantitative analyst", "software development engineer"]
+LOCATIONS = ["India", "Bengaluru", "Hyderabad", "Pune", "Mumbai", "Gurugram"]
+SALARY_TARGET = 1200000        # ranks jobs at/above this higher
+HARD_SALARY_FLOOR = 0          # 0 = off
 ]
 REJECT_TITLE = [
     "senior", "sr.", "staff", "principal", "director", "manager", "lead",
