@@ -56,6 +56,13 @@ def run(api_key, session=None, now=None):
     kept, reasons = filters.apply(jobs)
     new = [j for j in kept if j["url"] not in db]
     log.info("filtered to %d (dropped: %s); %d not yet scored", len(kept), reasons, len(new))
+    
+    # Over the cap, score the freshest first; the rest are left unscored and,
+    # because only scored jobs get recorded, come back on the next run.
+    if len(new) > C.MAX_TO_SCORE:
+        log.info("capping at %d this run; %d deferred to the next run",
+                 C.MAX_TO_SCORE, len(new) - C.MAX_TO_SCORE)
+        new = sorted(new, key=lambda j: j.get("days_live", 999))[:C.MAX_TO_SCORE]
 
     # 4. score, recording each job only once it has a score
     scored = 0
