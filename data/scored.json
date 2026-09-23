@@ -1,1 +1,102 @@
-{}
+{
+ "https://databricks.com/company/careers/open-positions/job?gh_jid=8761732002": {
+  "company": "Databricks",
+  "duration": "",
+  "found_on": "2026-09-23",
+  "last_seen_open": "2026-09-23",
+  "location": "United States",
+  "open_roles_at_company": 883,
+  "posted": "2026-09-01T23:42:39-04:00",
+  "salary": "",
+  "score": 3,
+  "snippet": "FEQ227R367 As a Data Engineering and Warehousing Specialist Solutions Architect (SSA), you will lead the advanced technical strategy for your customers \u2014 owning complex architecture discussions, driving platform adoption, and serving as a trusted advisor to customer technical leads and architects. You combine deep technical expertise with strategic thinking to position Databricks as the foundation of your customers\u2019 data and AI strategy. You are further developing a technical specialization and are recognized within the Field Engineering team for depth in the specific domain. This position can",
+  "tailored_bullets": [
+   "Leveraged Databricks and Spark to build scalable data pipelines during research at the UW People Analytics Lab.",
+   "Developed robust Python and SQL ETL pipelines to process complex HR datasets at Cisco.",
+   "Integrated Kafka and streaming data concepts to optimize real-time data ingestion workflows at Cloudflare."
+  ],
+  "title": "Specialist Solutions Architect - Data Engineering & Warehousing (Digital Native Business)",
+  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8761732002",
+  "why_it_fits": "Requires six plus years of experience in solutions architecture or senior technical roles."
+ },
+ "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b": {
+  "company": "Notion",
+  "duration": "FullTime",
+  "found_on": "2026-09-23",
+  "last_seen_open": "2026-09-23",
+  "location": "San Francisco, California",
+  "open_roles_at_company": 129,
+  "posted": "2026-08-25T14:27:12.904+00:00",
+  "salary": null,
+  "score": 9,
+  "snippet": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn\u2019t to ship the next feature. ",
+  "tailored_bullets": [
+   "Applied statistical inference and designed A/B testing frameworks at the UW People Analytics Lab.",
+   "Transformed raw HR data into clean datasets using Python and SQL ETL at Cisco.",
+   "Partnered with cross-functional teams to build Streamlit dashboards and track key metrics at Cloudflare."
+  ],
+  "title": "Data Scientist, Growth",
+  "url": "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b",
+  "why_it_fits": "Ideal match for data science skills, experimentation background, and B2B SaaS experience."
+ },
+ "https://stripe.com/jobs/search?gh_jid=8189909": {
+  "company": "Stripe",
+  "duration": "",
+  "found_on": "2026-09-23",
+  "last_seen_open": "2026-09-23",
+  "location": "New York",
+  "open_roles_at_company": 683,
+  "posted": "2026-09-10T17:39:22-04:00",
+  "salary": "",
+  "score": 4,
+  "snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career. About the team Data Science at Stripe is a vibrant community where data analysts",
+  "tailored_bullets": [
+   "Designed and optimized SQL queries and data models to analyze employee metrics at Cisco.",
+   "Built and maintained production-grade ETL pipelines using Airflow and Python during Cloudflare internship.",
+   "Utilized Spark and Python to process large-scale datasets at the UW People Analytics Lab."
+  ],
+  "title": "Data Analyst, NYC",
+  "url": "https://stripe.com/jobs/search?gh_jid=8189909",
+  "why_it_fits": "Requires six plus years of experience in data or analytics engineering."
+ },
+ "https://stripe.com/jobs/search?gh_jid=8197886": {
+  "company": "Stripe",
+  "duration": "",
+  "found_on": "2026-09-23",
+  "last_seen_open": "2026-09-23",
+  "location": "New York City ",
+  "open_roles_at_company": 683,
+  "posted": "2026-09-21T12:52:34-04:00",
+  "salary": "",
+  "score": 7,
+  "snippet": "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies\u2014from the world\u2019s largest enterprises to the most ambitious startups\u2014use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone\u2019s reach while doing the most important work of your career. About the team Link is a digital wallet designed for fast and secure online paym",
+  "tailored_bullets": [
+   "Built and evaluated tree-based machine learning models using XGBoost and scikit-learn at Cisco.",
+   "Designed scalable data pipelines using Python, SQL, and Spark at the UW People Analytics Lab.",
+   "Deployed NLP and predictive models to analyze unstructured text data during Cloudflare internship."
+  ],
+  "title": "Machine Learning Engineer, Link",
+  "url": "https://stripe.com/jobs/search?gh_jid=8197886",
+  "why_it_fits": "Excellent match for machine learning skills, though Stripe typically expects industry experience."
+ },
+ "https://stripe.com/jobs/search?gh_jid=8222149": {
+  "company": "Stripe",
+  "duration": "",
+  "found_on": "2026-09-23",
+  "last_seen_open": "2026-09-23",
+  "location": "Seattle, WA",
+  "open_roles_at_company": 683,
+  "posted": "2026-09-21T20:23:42-04:00",
+  "salary": "$193,232 - 288,000/yr",
+  "score": 3,
+  "snippet": "Who we are About Stripe Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world\u2019s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. What you\u2019ll do Responsibilities Scope, design, build, and maintain API",
+  "tailored_bullets": [
+   "Designed and analyzed production experiments and A/B tests at the UW People Analytics Lab.",
+   "Developed and deployed predictive models using Python, scikit-learn, and XGBoost during Cisco tenure.",
+   "Wrote complex SQL queries to extract and model key business metrics at Cloudflare."
+  ],
+  "title": "Data Scientist",
+  "url": "https://stripe.com/jobs/search?gh_jid=8222149",
+  "why_it_fits": "Requires a master's degree plus five years of professional data science experience."
+ }
+}
