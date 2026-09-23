@@ -1,5 +1,5 @@
 // A small agent: Gemini + one tool (search_matches) + a loop.
-import { gemini, loadJobs, searchMatches, handle, HttpError } from "./_lib.js";
+import { gemini, loadJobs, searchMatches, handle, HttpError,rateLimit } from "./_lib.js";
 
 const MAX_STEPS = 5;
 const SYSTEM = `You are the assistant on a personal job-search dashboard. You answer questions about the data roles
@@ -61,6 +61,7 @@ export async function runChat(messages, jobs, callModel) {
 }
 
 export default handle(async req => {
+   rateLimit(req);
   const msgs = Array.isArray(req.body?.messages) ? req.body.messages.slice(-12) : [];
   if (!msgs.length || msgs.at(-1).role !== "user") throw new HttpError(400, "Send at least one user message.");
   for (const m of msgs) {
