@@ -1,6 +1,7 @@
-collector/
-tests/
-data/
-requirements.txt
-requirements-dev.txt
-profile.md
+/collector/
+/tests/
+/data/
+/requirements.txt
+/requirements-dev.txt
+/profile.md
+/README.md
