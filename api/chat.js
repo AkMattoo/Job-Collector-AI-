@@ -67,5 +67,8 @@ export default handle(async req => {
     if (typeof m.text !== "string" || m.text.length > 800) throw new HttpError(400, "Messages must be text under 800 characters.");
   }
   const jobs = await loadJobs(req);
+  if (!jobs.length) {
+    return { reply: "There are no saved matches yet. The daily collector hasn't published any, so there's nothing for me to search. Check back after the next run.", steps: 0 };
+  }
   return runChat(msgs, jobs, body => gemini(body));
 });

@@ -10,8 +10,19 @@ export async function gemini(body, fetchImpl = fetch) {
     headers: { "content-type": "application/json", "x-goog-api-key": key },
     body: JSON.stringify(body),
   });
-  if (r.status === 429) throw new HttpError(429, "The free AI quota is used up for now. Try again later.");
-  if (!r.ok) throw new HttpError(502, `The AI service returned ${r.status}.`);
+  if (!r.ok) {
+    const detail = (await r.text().catch(() => "")).slice(0, 400);
+    console.error(`Gemini ${r.status} for model ${MODEL}: ${detail}`);  // visible in Vercel → Logs
+    if (r.status === 429) {
+      const noFreeTier = /limit: ?0\b/.test(detail);
+      throw new HttpError(429, noFreeTier
+        ? `The model ${MODEL} has no free quota on this API key. Set GEMINI_MODEL to a free-tier model in Vercel.`
+        : "The free AI quota is used up for now. Try again in a minute.");
+    }
+    if (r.status === 400 || r.status === 403) throw new HttpError(502, "The AI service rejected the request. Check GEMINI_API_KEY in Vercel.");
+    if (r.status === 404) throw new HttpError(502, `The model ${MODEL} wasn't found. Check GEMINI_MODEL in Vercel.`);
+    throw new HttpError(502, `The AI service returned ${r.status}.`);
+  }
   return r.json();
 }
 

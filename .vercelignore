@@ -1,3 +1,5 @@
+# Vercel only needs the website (public/) and the chat functions (api/).
+# Leading slashes matter: "data/" alone would also hide public/data/jobs.json.
 /collector/
 /tests/
 /data/

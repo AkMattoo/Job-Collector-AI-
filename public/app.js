@@ -13,6 +13,9 @@ async function load() {
     $("#stat-updated").textContent = data.updated ? ago(data.updated) : "not yet";
   } catch {
     JOBS = [];
+    $("#stat-count").textContent = "0";
+    $("#stat-open").textContent = "0";
+    $("#stat-updated").textContent = "not yet";
   }
   render();
 }
@@ -34,6 +37,7 @@ function render() {
     empty.textContent = "Nothing matches that filter.";
   }
   empty.hidden = rows.length > 0;
+  document.querySelector(".table-wrap").hidden = rows.length === 0;
   $("#rows").innerHTML = rows.map((j, i) => `
     <tr class="job${j.still_open ? "" : " closed"}" data-i="${i}" tabindex="0" aria-expanded="false">
       <td><span class="score s${j.score}">${j.score}</span></td>

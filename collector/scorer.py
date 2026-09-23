@@ -87,7 +87,10 @@ def call(prompt, api_key, session=None, retries=3):
                 timeout=120,
             )
             if r.status_code == 429 or r.status_code >= 500:
-                raise RuntimeError(f"HTTP {r.status_code}")
+                raise RuntimeError(f"HTTP {r.status_code}: {getattr(r, 'text', '')[:300]}")
+            if r.status_code >= 400:
+                log.error("gemini rejected the request (HTTP %s): %s", r.status_code, getattr(r, "text", "")[:300])
+                return None
             r.raise_for_status()
             return r.json()
         except Exception as e:  # noqa: BLE001
