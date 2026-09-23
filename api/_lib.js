@@ -43,14 +43,40 @@ export async function gemini(body, fetchImpl = fetch) {
   throw new HttpError(502, `The AI service returned ${status}.`);
 }
 
-export async function loadJobs(req, fetchImpl = fetch) {
-  const host = req.headers["x-forwarded-host"] || req.headers.host;
-  const proto = req.headers["x-forwarded-proto"] || "https";
-  const r = await fetchImpl(`${proto}://${host}/data/jobs.json`);
-  if (!r.ok) return [];
-  return (await r.json()).jobs || [];
-}
+// The jobs file ships with the deployment, so read it off disk. Fetching it over
+// HTTP breaks under Deployment Protection: the function's call back into its own
+// domain gets the auth page (HTML, status 200) instead of JSON.
+const JOBS_PATHS = [
+  "public/data/jobs.json",
+  "data/jobs.json",
+  "../public/data/jobs.json",
+];
 
+export async function loadJobs(req, fetchImpl = fetch) {
+  const { readFile } = await import("node:fs/promises");
+  const { join } = await import("node:path");
+  for (const rel of JOBS_PATHS) {
+    try {
+      const raw = await readFile(join(process.cwd(), rel), "utf8");
+      return JSON.parse(raw).jobs || [];
+    } catch { /* try the next candidate */ }
+  }
+  // Last resort: the old HTTP path, but only trust an actual JSON response.
+  try {
+    const host = req.headers["x-forwarded-host"] || req.headers.host;
+    const proto = req.headers["x-forwarded-proto"] || "https";
+    const r = await fetchImpl(`${proto}://${host}/data/jobs.json`);
+    const type = r.headers?.get?.("content-type") || "";
+    if (!r.ok || !type.includes("json")) {
+      console.error(`jobs.json over HTTP returned ${r.status} ${type || "(no content-type)"}`);
+      return [];
+    }
+    return (await r.json()).jobs || [];
+  } catch (e) {
+    console.error("could not load jobs.json:", e.message);
+    return [];
+  }
+}
 // The one tool the chat agent has. Pure function so it can be tested.
 export function searchMatches(jobs, a = {}) {
   const kw = String(a.keywords || "").toLowerCase().split(",").map(s => s.trim()).filter(Boolean);
