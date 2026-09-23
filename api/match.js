@@ -1,5 +1,5 @@
 // Rescore the current top matches against an uploaded resume. One AI call, capped.
-import { gemini, loadJobs, handle, HttpError } from "./_lib.js";
+import { gemini, loadJobs, handle, HttpError,rateLimit } from "./_lib.js";
 
 const TOP = 20;
 
@@ -18,6 +18,7 @@ ${list}`;
 }
 
 export function mergeScores(jobs, data) {
+  rateLimit(req);
   let items = [];
   try { items = JSON.parse(data.candidates[0].content.parts[0].text); } catch { items = []; }
   const byIdx = new Map((Array.isArray(items) ? items : [])
