@@ -29,6 +29,10 @@ def record(store, job, result, today):
         "location": job["location"],
         "duration": result.get("duration") or job["duration"],
         "salary": result.get("salary") or job["salary"],
+        "salary_min": job.get("salary_min"),
+        "salary_max": job.get("salary_max"),
+        "salary_predicted": job.get("salary_predicted", False),
+        "source": job.get("source", "board"),
         "posted": job["posted"],
         "open_roles_at_company": job["open_roles_at_company"],
         "why_it_fits": result.get("reason", ""),
@@ -51,6 +55,14 @@ def prune(store, now):
         del store[url]
 
 
+def _pay_rank(v):
+    """2 = stated pay at or above target, 1 = stated but below, 0 = not stated."""
+    top = v.get("salary_max") or v.get("salary_min")
+    if not top:
+        return 0
+    return 2 if top >= C.SALARY_TARGET else 1
+
+
 def publish(store, now, path=C.PUBLISH_PATH):
     today = now.date().isoformat()
     rows = []
@@ -65,8 +77,13 @@ def publish(store, now, path=C.PUBLISH_PATH):
             except ValueError:
                 pass
         rows.append({**v, "days_live": days, "freshness": freshness(days),
-                     "still_open": v.get("last_seen_open") == today})
-    rows.sort(key=lambda r: (not r["still_open"], -r["score"], r["days_live"] if r["days_live"] is not None else 999))
+                     "still_open": v.get("last_seen_open") == today,
+                     "pay_rank": _pay_rank(v)})
+    # Rank: open first, then fit score, then pay (stated and at/above target
+    # beats stated-but-lower, which beats unknown), then freshness.
+    rows.sort(key=lambda r: (not r["still_open"], -r["score"], -r["pay_rank"],
+                             -(r.get("salary_max") or 0),
+                             r["days_live"] if r["days_live"] is not None else 999))
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"updated": now.isoformat(timespec="minutes"), "count": len(rows), "jobs": rows}, f, indent=1)

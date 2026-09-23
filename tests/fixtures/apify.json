@@ -1,0 +1,7 @@
+[{"jobTitle":"Data Analyst","companyName":"Kappa","location":"Gurugram, India",
+  "link":"https://li/1","postedAt":"2026-09-21T00:00:00Z","employmentType":"Full-time",
+  "descriptionText":"Power BI and SQL"},
+ {"title":"Business Analyst","company":{"name":"Lambda"},"jobLocation":"Remote, India",
+  "jobUrl":"https://li/2","publishedAt":"2026-09-22T00:00:00Z",
+  "description":"Stakeholder reporting"},
+ {"garbage":true}]

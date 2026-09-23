@@ -27,8 +27,17 @@ GitHub Actions (daily)                     Vercel (free)
 this folder's contents. Easiest: on the empty repo page click **uploading an existing file** and drag everything in,
 including the hidden `.github` folder. (Or use `git push` if you're comfortable with it.)
 
-**2. Add your Gemini key to GitHub.** Repo → **Settings → Secrets and variables → Actions → New repository secret**.
-Name `GEMINI_API_KEY`, value = your key.
+**2. Add secrets to GitHub.** Repo → **Settings → Secrets and variables → Actions → New repository secret**.
+
+| Secret | Needed for | Where to get it |
+|---|---|---|
+| `GEMINI_API_KEY` | scoring | aistudio.google.com/apikey |
+| `ADZUNA_APP_ID` | job search | developer.adzuna.com (free, no card) |
+| `ADZUNA_APP_KEY` | job search | same page |
+| `APIFY_TOKEN` | LinkedIn search (optional) | apify.com → Settings → Integrations |
+
+And one **variable** (the Variables tab, not Secrets): `APIFY_ACTOR`, e.g. `bebity~linkedin-jobs-scraper`.
+Leave the Apify ones out and the run simply skips LinkedIn.
 
 **3. Run the collector once.** Repo → **Actions** tab → enable workflows if asked → **Collect jobs** → **Run workflow**.
 It takes a few minutes. When it's green, `public/data/jobs.json` will have been updated by a commit from `job-agent-bot`.
@@ -40,7 +49,11 @@ Every time the collector commits new data, Vercel redeploys automatically.
 
 ## Everyday changes
 - **Your profile**: edit `profile.md` on GitHub. The next run scores new jobs against it.
-- **Companies**: edit `COMPANIES` in `collector/config.py`. Use the slug from the careers URL.
+- **What to search for**: `ROLE_KEYWORDS` and `LOCATIONS` in `collector/config.py`.
+- **Pay**: `SALARY_TARGET` ranks jobs at or above it higher. `HARD_SALARY_FLOOR` stays 0 by default
+  on purpose — most postings don't state pay, and an unknown salary is not evidence of a low one.
+- **Sources**: `USE_ADZUNA`, `USE_LINKEDIN`, `USE_BOARDS` in `collector/config.py`.
+  With `USE_BOARDS = True`, the old per-company watchlist in `COMPANIES` runs too.
 - **Filters and thresholds**: also in `collector/config.py` (`MAX_AGE_DAYS`, `MIN_SCORE`, keyword lists).
 - **Rescore everything** after a big profile change: replace `data/scored.json` with `{}` and rerun the workflow.
 

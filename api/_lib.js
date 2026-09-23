@@ -2,28 +2,45 @@
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash";
 const URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
 
+// An AQ.-prefixed "auth key" (all new AI Studio keys since May 2026) is rejected
+// on the x-goog-api-key header by some endpoints but accepted as a bearer token.
+// Old AIza keys only work on x-goog-api-key. So: pick by prefix, fall back either way.
+function authHeaders(key) {
+  return key.startsWith("AQ.")
+    ? [{ authorization: `Bearer ${key}` }, { "x-goog-api-key": key }]
+    : [{ "x-goog-api-key": key }, { authorization: `Bearer ${key}` }];
+}
+
 export async function gemini(body, fetchImpl = fetch) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new HttpError(500, "Server is missing GEMINI_API_KEY.");
-  const r = await fetchImpl(URL, {
-    method: "POST",
-    headers: { "content-type": "application/json", "x-goog-api-key": key },
-    body: JSON.stringify(body),
-  });
-  if (!r.ok) {
+  const attempts = authHeaders(key.trim());
+  let last = null;
+  for (let i = 0; i < attempts.length; i++) {
+    const r = await fetchImpl(URL, {
+      method: "POST",
+      headers: { "content-type": "application/json", ...attempts[i] },
+      body: JSON.stringify(body),
+    });
+    if (r.ok) return r.json();
     const detail = (await r.text().catch(() => "")).slice(0, 400);
-    console.error(`Gemini ${r.status} for model ${MODEL}: ${detail}`);  // visible in Vercel → Logs
-    if (r.status === 429) {
-      const noFreeTier = /limit: ?0\b/.test(detail);
-      throw new HttpError(429, noFreeTier
-        ? `The model ${MODEL} has no free quota on this API key. Set GEMINI_MODEL to a free-tier model in Vercel.`
-        : "The free AI quota is used up for now. Try again in a minute.");
-    }
-    if (r.status === 400 || r.status === 403) throw new HttpError(502, "The AI service rejected the request. Check GEMINI_API_KEY in Vercel.");
-    if (r.status === 404) throw new HttpError(502, `The model ${MODEL} wasn't found. Check GEMINI_MODEL in Vercel.`);
-    throw new HttpError(502, `The AI service returned ${r.status}.`);
+    console.error(`Gemini ${r.status} for model ${MODEL} (auth attempt ${i + 1}): ${detail}`);
+    last = { status: r.status, detail };
+    // Only an auth rejection is worth retrying with the other header.
+    const authProblem = (r.status === 400 && /API_KEY_INVALID|API key not valid/i.test(detail))
+      || r.status === 401 || r.status === 403;
+    if (!authProblem) break;
   }
-  return r.json();
+  const { status, detail } = last;
+  if (status === 429) {
+    const noFreeTier = /limit: ?0\b/.test(detail);
+    throw new HttpError(429, noFreeTier
+      ? `The model ${MODEL} has no free quota on this API key. Set GEMINI_MODEL to a free-tier model in Vercel.`
+      : "The free AI quota is used up for now. Try again in a minute.");
+  }
+  if (status === 400 || status === 401 || status === 403) throw new HttpError(502, "The AI service rejected the request. Check GEMINI_API_KEY in Vercel.");
+  if (status === 404) throw new HttpError(502, `The model ${MODEL} wasn't found. Check GEMINI_MODEL in Vercel.`);
+  throw new HttpError(502, `The AI service returned ${status}.`);
 }
 
 export async function loadJobs(req, fetchImpl = fetch) {

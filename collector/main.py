@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import boards, config as C, filters, normalize, scorer, store
+from . import adzuna, boards, config as C, filters, linkedin, normalize, scorer, store
 
 log = logging.getLogger("collector")
 
@@ -18,13 +18,35 @@ def run(api_key, session=None, now=None):
     profile = open(C.PROFILE_PATH, encoding="utf-8").read().strip()
     db = store.load()
 
-    # 1. fetch + normalize
+    # 1. fetch from every enabled source, then flatten into one shape
     jobs = []
-    for company in C.COMPANIES:
-        got = boards.fetch(company, session)
-        if got:
-            jobs.extend(normalize.normalize(*got, now=now))
-    log.info("fetched %d postings from %d companies", len(jobs), len(C.COMPANIES))
+
+    if C.USE_ADZUNA:
+        if adzuna.available():
+            jobs += normalize.normalize("adzuna", adzuna.fetch_all(session), now=now)
+        else:
+            log.warning("Adzuna is on but ADZUNA_APP_ID / ADZUNA_APP_KEY are not set; skipping")
+
+    if C.USE_LINKEDIN:
+        jobs += normalize.normalize("apify", linkedin.fetch_all(session), now=now)
+
+    if C.USE_BOARDS:
+        for company in C.COMPANIES:
+            got = boards.fetch(company, session)
+            if got:
+                jobs.extend(normalize.normalize(*got, now=now))
+
+    # the same job can come back from more than one source
+    seen_urls, deduped = set(), []
+    for j in jobs:
+        if j["url"] in seen_urls:
+            continue
+        seen_urls.add(j["url"])
+        deduped.append(j)
+    if len(deduped) != len(jobs):
+        log.info("dropped %d duplicate postings across sources", len(jobs) - len(deduped))
+    jobs = deduped
+    log.info("fetched %d postings", len(jobs))
 
     # 2. note which stored jobs are still live, forget old ones
     store.mark_open(db, {j["url"] for j in jobs}, today)

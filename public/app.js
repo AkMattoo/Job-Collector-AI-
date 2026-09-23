@@ -41,7 +41,7 @@ function render() {
   $("#rows").innerHTML = rows.map((j, i) => `
     <tr class="job${j.still_open ? "" : " closed"}" data-i="${i}" tabindex="0" aria-expanded="false">
       <td><span class="score s${j.score}">${j.score}</span></td>
-      <td class="role"><b>${esc(j.title)}</b><span>${esc(j.company)}${j.duration ? " · " + esc(j.duration) : ""}</span></td>
+      <td class="role"><b>${esc(j.title)}</b><span>${esc(j.company)}${j.duration ? " · " + esc(j.duration) : ""}${j.source ? " · " + esc(j.source) : ""}</span></td>
       <td>${esc(j.location)}</td>
       <td class="pay${j.salary ? "" : " none"}">${j.salary ? esc(j.salary) : "Not stated"}</td>
       <td>${j.still_open ? `<span class="chip ${j.freshness}">${j.freshness}</span>` : `<span class="chip closed">closed</span>`}

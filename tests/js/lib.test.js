@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { searchMatches } from "../../api/_lib.js";
+import { searchMatches, gemini } from "../../api/_lib.js";
 import { runChat } from "../../api/chat.js";
 import { mergeScores } from "../../api/match.js";
 
@@ -41,4 +41,42 @@ test("mergeScores ignores garbage and bad indexes", () => {
   const good = { candidates: [{ content: { parts: [{ text: JSON.stringify([{ index: 1, score: 8, reason: "ok" }, { index: 9, score: 9, reason: "x" }]) }] } }] };
   assert.deepEqual(mergeScores(JOBS, good).map(r => r.url), ["u2"]);
   assert.deepEqual(mergeScores(JOBS, { candidates: [{ content: { parts: [{ text: "nope" }] } }] }), []);
+});
+
+test("an AQ. key is sent as a bearer token first", async () => {
+  process.env.GEMINI_API_KEY = "AQ.fake";
+  const seen = [];
+  const fake = async (_url, opts) => {
+    seen.push(opts.headers);
+    return { ok: true, json: async () => ({ ok: 1 }) };
+  };
+  await gemini({}, fake);
+  assert.equal(seen.length, 1);
+  assert.equal(seen[0].authorization, "Bearer AQ.fake");
+});
+
+test("an auth rejection is retried with the other header", async () => {
+  process.env.GEMINI_API_KEY = "AQ.fake";
+  const seen = [];
+  const fake = async (_url, opts) => {
+    seen.push(opts.headers);
+    if (seen.length === 1) {
+      return { ok: false, status: 400, text: async () => '{"error":{"status":"API_KEY_INVALID"}}' };
+    }
+    return { ok: true, json: async () => ({ ok: 1 }) };
+  };
+  await gemini({}, fake);
+  assert.equal(seen.length, 2);
+  assert.equal(seen[1]["x-goog-api-key"], "AQ.fake");
+});
+
+test("a non-auth error is not retried with the other header", async () => {
+  process.env.GEMINI_API_KEY = "AIzaFake";
+  let calls = 0;
+  const fake = async () => {
+    calls++;
+    return { ok: false, status: 429, text: async () => "quota" };
+  };
+  await assert.rejects(() => gemini({}, fake), /quota is used up/);
+  assert.equal(calls, 1);
 });

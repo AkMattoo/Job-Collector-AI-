@@ -1,0 +1,23 @@
+{"results": [
+ {"id":"1","title":"Data Analyst","company":{"display_name":"Acme"},
+  "location":{"display_name":"Bengaluru, Karnataka"},"redirect_url":"https://adz/1",
+  "created":"2026-09-19T00:00:00Z","contract_time":"full_time",
+  "salary_min":1200000,"salary_max":1800000,"salary_is_predicted":"0",
+  "description":"SQL, Python &amp; dashboards"},
+ {"id":"2","title":"Data Engineer","company":{"display_name":"Beta"},
+  "location":{"display_name":"Pune, Maharashtra"},"redirect_url":"https://adz/2",
+  "created":"2026-09-20T00:00:00Z","salary_min":600000,"salary_max":900000,
+  "salary_is_predicted":"1","description":"ETL pipelines"},
+ {"id":"3","title":"Data Scientist","company":{"display_name":"Gamma"},
+  "location":{"display_name":"Hyderabad"},"redirect_url":"https://adz/3",
+  "created":"2026-09-20T00:00:00Z","description":"no pay stated here"},
+ {"id":"4","title":"Senior Data Engineer","company":{"display_name":"Delta"},
+  "location":{"display_name":"Bengaluru"},"redirect_url":"https://adz/4",
+  "created":"2026-09-20T00:00:00Z","description":"senior"},
+ {"id":"5","title":"Data Analyst","company":{"display_name":"Eps"},
+  "location":{"display_name":"Singapore"},"redirect_url":"https://adz/5",
+  "created":"2026-09-20T00:00:00Z","description":"overseas"},
+ {"id":"6","title":"Data Analyst","company":{"display_name":"Zeta"},
+  "location":{"display_name":"Mumbai"},"redirect_url":"https://adz/6",
+  "created":"2026-09-20T00:00:00Z","description":"Requires 8+ years of experience"}
+]}

@@ -68,8 +68,18 @@ def parse(response_json, batch):
     return out
 
 
+def auth_headers(api_key):
+    """New AI Studio keys (AQ. prefix) are auth keys and are accepted as bearer
+    tokens; older AIza keys only work on x-goog-api-key. Try the likely one first."""
+    key = api_key.strip()
+    bearer = {"Authorization": f"Bearer {key}"}
+    goog = {"x-goog-api-key": key}
+    return [bearer, goog] if key.startswith("AQ.") else [goog, bearer]
+
+
 def call(prompt, api_key, session=None, retries=3):
     s = session or requests
+    header_choices = auth_headers(api_key)
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -80,12 +90,21 @@ def call(prompt, api_key, session=None, retries=3):
     }
     for attempt in range(retries):
         try:
-            r = s.post(
-                ENDPOINT.format(m=C.GEMINI_MODEL),
-                headers={"x-goog-api-key": api_key},
-                json=body,
-                timeout=120,
-            )
+            r = None
+            for i, headers in enumerate(header_choices):
+                r = s.post(
+                    ENDPOINT.format(m=C.GEMINI_MODEL),
+                    headers=headers,
+                    json=body,
+                    timeout=120,
+                )
+                text = getattr(r, "text", "") or ""
+                auth_problem = r.status_code in (401, 403) or (
+                    r.status_code == 400 and "API_KEY_INVALID" in text
+                )
+                if not auth_problem:
+                    break
+                log.warning("gemini auth attempt %d rejected (HTTP %s)", i + 1, r.status_code)
             if r.status_code == 429 or r.status_code >= 500:
                 raise RuntimeError(f"HTTP {r.status_code}: {getattr(r, 'text', '')[:300]}")
             if r.status_code >= 400:
