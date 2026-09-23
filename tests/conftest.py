@@ -1,4 +1,4 @@
-import json
+﻿import json
 import os
 import sys
 from datetime import datetime, timezone
@@ -68,6 +68,9 @@ def workdir(tmp_path, monkeypatch):
         {"board": "lever", "token": "matchgroup"},
         {"board": "greenhouse", "token": "does-not-exist"},
     ])
+monkeypatch.setattr(C, "OK_LOCATION", ["remote", "seattle", ", wa", ", ny", "new york"])
+    monkeypatch.setattr(C, "MAX_AGE_DAYS", 30)
     import collector.scorer as S
     monkeypatch.setattr(S.time, "sleep", lambda *_: None)
     return tmp_path
+

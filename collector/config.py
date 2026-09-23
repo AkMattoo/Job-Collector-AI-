@@ -1,4 +1,4 @@
-"""Everything you'd want to tune lives here."""
+﻿"""Everything you'd want to tune lives here."""
 import os
 
 # ---- Watchlist ------------------------------------------------------------
@@ -28,9 +28,13 @@ REJECT_TITLE = [
     "software engineer", "distributed systems", "security",
 ]
 OK_LOCATION = [
-    "remote", "united states", "usa", "u.s.", "seattle", "san francisco",
-    "new york", "austin", "boston", "chicago", "los angeles", "denver",
-    ", wa", ", ca", ", ny", ", tx", ", ma", ", il", ", co",
+    # India
+    "india", "bengaluru", "bangalore", "hyderabad", "pune", "chennai",
+    "mumbai", "delhi", "gurgaon", "gurugram", "noida", "kolkata",
+    "ahmedabad", "jaipur", "coimbatore", "vellore", "trivandrum",
+    # remote - note this also lets through US-only remote roles;
+    # drop it if you only want postings that name an Indian city
+    "remote",
 ]
 MAX_AGE_DAYS = 30
 
@@ -46,3 +50,4 @@ STORE_PATH = "data/scored.json"         # every job we've ever scored (private-i
 PUBLISH_PATH = "public/data/jobs.json"  # what the website shows
 PROFILE_PATH = "profile.md"
 FORGET_AFTER_DAYS = 60
+
