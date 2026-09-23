@@ -71,7 +71,11 @@ HARD_SALARY_FLOOR = 0          # set above 0 to actually drop jobs below it
 
 # ---- Scoring --------------------------------------------------------------
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
-BATCH_SIZE = 8
+BATCH_SIZE = 12
+# Gemini's free tier has a daily request cap. Search sources return far more jobs
+# than boards did, so cap how many get scored per run. Unscored jobs are not
+# recorded, so they are simply picked up by the next run.
+MAX_TO_SCORE = 60
 MIN_SCORE = 7
 DESCRIPTION_CHARS = 3000
 SNIPPET_CHARS = 600
