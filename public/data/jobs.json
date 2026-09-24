@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T18:19+00:00",
+ "updated": "2026-09-24T18:20+00:00",
  "count": 2,
  "jobs": [
   {
@@ -21,9 +21,9 @@
    "title": "Data Scientist, Growth",
    "url": "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b",
    "why_it_fits": "Ideal match for data science skills, experimentation background, and B2B SaaS experience.",
-   "days_live": 29,
+   "days_live": 30,
    "freshness": "ageing",
-   "still_open": true,
+   "still_open": false,
    "pay_rank": 0
   },
   {
@@ -45,9 +45,9 @@
    "title": "Machine Learning Engineer, Link",
    "url": "https://stripe.com/jobs/search?gh_jid=8197886",
    "why_it_fits": "Excellent match for machine learning skills, though Stripe typically expects industry experience.",
-   "days_live": 2,
+   "days_live": 3,
    "freshness": "fresh",
-   "still_open": true,
+   "still_open": false,
    "pay_rank": 0
   }
  ]
