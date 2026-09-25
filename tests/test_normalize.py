@@ -26,10 +26,18 @@ def test_lever_salary_and_timestamp():
     assert jobs[1]["posted"].startswith("2026-09-19")
     assert jobs[1]["days_live"] == 3
 
-
 def test_all_boards_share_one_shape():
     keys = None
     for board, fx in [("greenhouse", "greenhouse.json"), ("ashby", "ashby.json"), ("lever", "lever.json")]:
         for j in normalize.normalize(board, load(fx), now=NOW):
             keys = keys or set(j)
             assert set(j) == keys
+
+def test_a_posting_dated_in_the_future_is_never_negative_days_live():
+    from datetime import datetime, timedelta, timezone
+    from collector import normalize
+    now = datetime(2026, 9, 25, 7, 25, tzinfo=timezone.utc)
+    future = (now + timedelta(hours=6)).isoformat()
+    assert normalize.days_since(future, now) == 0
+    assert normalize.days_since(None, now) is None
+    assert normalize.days_since("not a date", now) is None
