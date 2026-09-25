@@ -164,12 +164,12 @@ def normalize(board, payload, now=None):
     # it would just count search hits, so leave it at 0.
     per_company = len(jobs) if board in ("greenhouse", "ashby", "lever") else 0
     for j in jobs:
-        j["days_live"] = _days_since(j["posted"], now)
+        j["days_live"] = days_since(j["posted"], now)
         j["open_roles_at_company"] = per_company
     return jobs
 
 
-def _days_since(posted, now):
+def days_since(posted, now):
     if not posted:
         return None
     try:
