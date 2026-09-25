@@ -69,15 +69,14 @@ def parse(response_json, batch):
 
 
 def auth_headers(api_key):
-    """New AI Studio keys (AQ. prefix) are auth keys and are accepted as bearer
-    tokens; older AIza keys only work on x-goog-api-key. Try the likely one first."""
+    """x-goog-api-key works for both old AIza keys and the new AQ. auth keys -
+    confirmed against the live API, where an AQ. key on a bearer header returns
+    401. Bearer is kept only as a fallback in case that ever changes."""
     key = api_key.strip()
-    bearer = {"Authorization": f"Bearer {key}"}
-    goog = {"x-goog-api-key": key}
-    return [bearer, goog] if key.startswith("AQ.") else [goog, bearer]
+    return [{"x-goog-api-key": key}, {"Authorization": f"Bearer {key}"}]
 
 
-def call(prompt, api_key, session=None, retries=3):
+def call(prompt, api_key, session=None, retries=5):
     s = session or requests
     header_choices = auth_headers(api_key)
     body = {
@@ -113,7 +112,7 @@ def call(prompt, api_key, session=None, retries=3):
             r.raise_for_status()
             return r.json()
         except Exception as e:  # noqa: BLE001
-            wait = 5 * (attempt + 1)
+            wait = 15 * (attempt + 1)
             log.warning("gemini attempt %d failed (%s), waiting %ds", attempt + 1, e, wait)
             time.sleep(wait)
     return None
