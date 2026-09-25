@@ -26,6 +26,7 @@
 
 <main class="wrap layout">
   <section class="results" aria-labelledby="results-h">
+   <p id="stale" hidden></p>
     <div class="toolbar">
       <h2 id="results-h">Matches</h2>
       <div class="controls">
@@ -48,9 +49,9 @@
       <div class="log" id="log" aria-live="polite">
         <div class="msg bot">Ask me anything about the matches. Try one of these:</div>
         <div class="chips" id="chips">
-          <button type="button">Best remote roles still open?</button>
+          <button type="button" data-flow="1">Help me narrow these down</button>
+          <button type="button">Which ones are freshest?</button>
           <button type="button">Which ones state their pay?</button>
-          <button type="button">What's the culture like at these companies?</button>
         </div>
       </div>
       <form id="chat-form" class="chat-form">
@@ -87,6 +88,7 @@
 <footer class="wrap foot">Built by Akshay · Python, GitHub Actions, Gemini, Vercel</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="flow.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
