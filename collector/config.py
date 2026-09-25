@@ -14,7 +14,7 @@ ROLE_KEYWORDS = [
 ]
 
 # Where. Adzuna matches these loosely; LinkedIn wants them as written.
-LOCATIONS = ["India", "Bengaluru", "Hyderabad", "Pune", "Mumbai", "Gurugram"]
+LOCATIONS = ["India", "Bengaluru", "Hyderabad", "Pune", "Mumbai", "Gurgaon"]
 
 # ---- Sources --------------------------------------------------------------
 # Turn a source off here and the run skips it entirely.
