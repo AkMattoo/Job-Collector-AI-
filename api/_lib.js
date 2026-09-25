@@ -6,9 +6,9 @@ const URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:ge
 // on the x-goog-api-key header by some endpoints but accepted as a bearer token.
 // Old AIza keys only work on x-goog-api-key. So: pick by prefix, fall back either way.
 function authHeaders(key) {
-  return key.startsWith("AQ.")
-    ? [{ authorization: `Bearer ${key}` }, { "x-goog-api-key": key }]
-    : [{ "x-goog-api-key": key }, { authorization: `Bearer ${key}` }];
+  // x-goog-api-key works for both old AIza keys and new AQ. auth keys; an AQ.
+  // key on a bearer header returns 401. Bearer stays only as a fallback.
+  return [{ "x-goog-api-key": key }, { authorization: `Bearer ${key}` }];
 }
 
 export async function gemini(body, fetchImpl = fetch) {
