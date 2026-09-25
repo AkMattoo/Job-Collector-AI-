@@ -95,3 +95,19 @@ tr.detail td{background:var(--bg);padding:14px 18px 18px}
 .flow span{color:var(--muted);font-size:.86rem}
 .foot{color:var(--faint);font-size:.8rem;padding-top:16px;padding-bottom:40px;border-top:1px solid var(--line)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+
+/* guided intake results */
+.msg.results ol { margin: .2rem 0 0; padding-left: 1.2rem; }
+.msg.results li { margin: .35rem 0; }
+.msg.results small { display: block; opacity: .7; font-size: .82em; }
+.msg.muted-msg { opacity: .65; font-size: .88em; }
+
+/* stale-data notice */
+#stale {
+  margin: 0 0 1rem;
+  padding: .6rem .8rem;
+  border-left: 3px solid #d9a441;
+  background: rgba(217, 164, 65, .08);
+  font-size: .9rem;
+}
