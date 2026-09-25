@@ -1,4 +1,5 @@
 import json
+import inspect
 
 from collector import scorer
 from conftest import FakeSession, gemini_reply
