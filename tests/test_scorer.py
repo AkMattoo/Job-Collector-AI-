@@ -23,4 +23,7 @@ def test_failed_batch_yields_nothing(monkeypatch):
     s = FakeSession([("x", 503), ("x", 503), ("x", 503)])
     assert list(scorer.score([{"title": "a", "company": "", "location": "", "salary": "",
                                "duration": "", "description": ""}], "p", "k", s)) == []
-    assert s.gemini_calls == 3  # retried
+    # the retry count lives in scorer.call's signature; read it rather than
+    # repeating it here, so changing the default doesn't break this test
+    retries = inspect.signature(scorer.call).parameters["retries"].default
+    assert s.gemini_calls == retries
