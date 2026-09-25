@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 
 from . import config as C
 from .filters import freshness
+from .normalize import days_since
 
 
 def load(path=C.STORE_PATH):
@@ -69,13 +70,7 @@ def publish(store, now, path=C.PUBLISH_PATH):
     for v in store.values():
         if v["score"] < C.MIN_SCORE:
             continue
-        days = None
-        if v.get("posted"):
-            try:
-                dt = datetime.fromisoformat(v["posted"].replace("Z", "+00:00"))
-                days = (now - (dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc))).days
-            except ValueError:
-                pass
+        days = days_since(v.get("posted"), now)
         rows.append({**v, "days_live": days, "freshness": freshness(days),
                      "still_open": v.get("last_seen_open") == today,
                      "pay_rank": _pay_rank(v)})
