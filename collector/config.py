@@ -76,6 +76,7 @@ BATCH_SIZE = 20
 # than boards did, so cap how many get scored per run. Unscored jobs are not
 # recorded, so they are simply picked up by the next run.
 MAX_TO_SCORE = 60
+MAX_GEMINI_CALLS_PER_RUN = 12
 MIN_SCORE = 7
 DESCRIPTION_CHARS = 3000
 SNIPPET_CHARS = 600
