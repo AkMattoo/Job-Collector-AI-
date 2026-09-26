@@ -68,6 +68,10 @@ def parse(response_json, batch):
     return out
 
 
+class QuotaExhausted(Exception):
+    """The daily free-tier budget is gone. Retrying cannot help: it resets on a
+    clock, not on a timer. Raised so the run stops instead of burning requests."""
+
 def auth_headers(api_key):
     """x-goog-api-key works for both old AIza keys and the new AQ. auth keys -
     confirmed against the live API, where an AQ. key on a bearer header returns
