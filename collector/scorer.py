@@ -80,7 +80,7 @@ def auth_headers(api_key):
     return [{"x-goog-api-key": key}, {"Authorization": f"Bearer {key}"}]
 
 
-def call(prompt, api_key, session=None, retries=5):
+def call(prompt, api_key, session=None, retries=3):
     s = session or requests
     header_choices = auth_headers(api_key)
     body = {
@@ -108,15 +108,19 @@ def call(prompt, api_key, session=None, retries=5):
                 if not auth_problem:
                     break
                 log.warning("gemini auth attempt %d rejected (HTTP %s)", i + 1, r.status_code)
-            if r.status_code == 429 or r.status_code >= 500:
+                        if r.status_code == 429:
+                raise QuotaExhausted(getattr(r, "text", "")[:200])
+            if r.status_code >= 500:
                 raise RuntimeError(f"HTTP {r.status_code}: {getattr(r, 'text', '')[:300]}")
             if r.status_code >= 400:
                 log.error("gemini rejected the request (HTTP %s): %s", r.status_code, getattr(r, "text", "")[:300])
                 return None
             r.raise_for_status()
             return r.json()
+                except QuotaExhausted:
+            raise                       # never retried - see the class docstring
         except Exception as e:  # noqa: BLE001
-            wait = 15 * (attempt + 1)
+            wait = 10 * (attempt + 1)   # 503 'high demand' needs real backoff
             log.warning("gemini attempt %d failed (%s), waiting %ds", attempt + 1, e, wait)
             time.sleep(wait)
     return None
@@ -126,9 +130,21 @@ def score(jobs, profile, api_key, session=None, pause=4):
     """Yield (job, result) only for jobs that were actually scored.
     Jobs in a failed batch are simply not yielded - so they are NOT recorded
     and get retried next run (at-least-once)."""
+        budget = C.MAX_GEMINI_CALLS_PER_RUN
     for start in range(0, len(jobs), C.BATCH_SIZE):
+        if budget <= 0:
+            log.warning("hit the %d-call budget for this run; %d jobs deferred",
+                        C.MAX_GEMINI_CALLS_PER_RUN, len(jobs) - start)
+            return
         batch = jobs[start:start + C.BATCH_SIZE]
-        resp = call(build_prompt(profile, batch), api_key, session)
+        try:
+            resp = call(build_prompt(profile, batch), api_key, session)
+        except QuotaExhausted:
+            log.warning("daily Gemini quota is gone; stopping with %d jobs unscored "
+                        "(they are not recorded, so the next run picks them up)",
+                        len(jobs) - start)
+            return
+        budget -= 1
         results = parse(resp, batch) if resp else {}
         if not results:
             log.warning("batch at %d produced no scores; will retry next run", start)
