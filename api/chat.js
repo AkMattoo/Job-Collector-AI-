@@ -1,67 +1,88 @@
-// A small agent: Gemini + one tool (search_matches) + a loop.
-import { gemini, loadJobs, searchMatches, handle, HttpError,rateLimit } from "./_lib.js";
+// Rule-based chat: prepared replies + job search over the saved matches.
+// No Gemini, no API key, no quota. Hands over to a helpline/webpage when stuck.
+import { loadJobs, searchMatches, handle, HttpError, rateLimit } from "./_lib.js";
 
-const MAX_STEPS = 5;
-const SYSTEM = `You are the assistant on a personal job-search dashboard. You answer questions about the data roles
-this dashboard has found and scored against its owner's resume.
+// ---- Edit these ----
+const FALLBACK = {
+  helpline: "+91 00000 00000",
+  page: "https://example.com/contact",
+};
+const MAX_MISSES = 2; // unmatched messages in a row before handing over
 
-You have one tool, search_matches, over the saved matches. Use it for any question about jobs; never answer from memory.
+const CITIES = ["bengaluru", "bangalore", "hyderabad", "pune", "mumbai", "gurgaon", "gurugram", "delhi", "chennai", "noida", "remote", "india"];
+const ROLES = ["data analyst", "data engineer", "data scientist", "analytics engineer", "business analyst", "quantitative analyst", "quant", "software", "sde", "developer", "engineer", "analyst"];
 
-Rules:
-1. NEVER invent a job, company, salary, or link. Everything you state must come from a tool result.
-2. If salary is "not stated", say the posting does not state pay. Never estimate a market rate.
-3. You cannot know a company's hiring intent or culture. If asked, say so plainly, then offer what the data has:
-   days_live and freshness (long-open posts are often ghost jobs), still_open, and open_roles_at_company.
-4. Short answers. Lead with the answer. Compact list, and include the URL for every job you mention.
-5. If nothing matches, say so and suggest one specific thing to loosen.
-6. If asked how this works: a daily Python pipeline on GitHub Actions pulls Greenhouse, Lever and Ashby boards,
-   filters them with cheap rules, scores the survivors with Gemini in batches, and publishes the results as JSON;
-   you are a serverless function using tool calls over that JSON.`;
+const FAQS = [
+  { keywords: ["how does", "how it works", "how do you", "scoring", "scored", "score work"],
+    reply: "Every day, a pipeline pulls new roles from company job boards, filters out ones that don't fit, and scores the rest from 0 to 10 against the owner's resume. Only matches scoring 7 or above are published here." },
+  { keywords: ["resume", "cv", "my profile"],
+    reply: "Use the 'Try it with your resume' button on the page to see how these jobs match your own resume." },
+  { keywords: ["update", "updated", "daily", "refresh", "new jobs today"],
+    reply: "The list updates once a day, in the evening India time. New matches appear automatically after each run." },
+  { keywords: ["salary", "pay", "ctc", "stipend"],
+    reply: "I only show pay when the posting states it. If a job says 'not stated', the company didn't list pay, and I won't guess." },
+  { keywords: ["culture", "good company", "worth it", "hiring intent", "ghost"],
+    reply: "I can't judge a company's culture or hiring intent. What I can show is how long a post has been live, whether it's still open, and how many roles the company has open. Long-open posts are sometimes ghost jobs." },
+  { keywords: ["hi", "hello", "hey"],
+    reply: "Hi! Ask me for jobs, like 'data analyst jobs in Bengaluru' or 'remote data engineer roles', or ask how the scoring works." },
+  { keywords: ["thanks", "thank you", "bye"],
+    reply: "Happy to help. Good luck with your search!" },
+];
 
-const TOOLS = [{
-  functionDeclarations: [{
-    name: "search_matches",
-    description: "Search the saved, scored job matches. All arguments optional.",
-    parameters: {
-      type: "OBJECT",
-      properties: {
-        keywords: { type: "STRING", description: "comma-separated words matched against title, company and description" },
-        location: { type: "STRING", description: "substring, e.g. 'remote' or 'seattle'" },
-        min_score: { type: "NUMBER", description: "minimum fit score 0-10" },
-        still_open_only: { type: "BOOLEAN", description: "only postings still live on the company board" },
-        max_results: { type: "NUMBER", description: "1-15, default 8" },
-      },
-    },
-  }],
-}];
+const handoff = reason => `${reason} For more help, call ${FALLBACK.helpline} or visit ${FALLBACK.page}`;
+const NOT_UNDERSTOOD = "Sorry, I didn't quite get that.";
 
-export async function runChat(messages, jobs, callModel) {
-  const contents = messages.map(m => ({ role: m.role === "assistant" ? "model" : "user", parts: [{ text: m.text }] }));
-  for (let step = 0; step < MAX_STEPS; step++) {
-    const data = await callModel({
-      systemInstruction: { parts: [{ text: SYSTEM }] },
-      contents, tools: TOOLS,
-      generationConfig: { temperature: 0.3 },
-    });
-    const content = data?.candidates?.[0]?.content;
-    if (!content?.parts) throw new HttpError(502, "The AI returned an empty reply.");
-    const calls = content.parts.filter(p => p.functionCall);
-    if (!calls.length) {
-      return { reply: content.parts.map(p => p.text || "").join("").trim(), steps: step };
-    }
-    contents.push(content); // keep the model's turn verbatim (includes any thought signatures)
-    contents.push({
-      role: "user",
-      parts: calls.map(c => ({
-        functionResponse: { name: c.functionCall.name, response: { results: searchMatches(jobs, c.functionCall.args) } },
-      })),
-    });
+function formatJobs(results) {
+  return results.map((j, i) => {
+    const where = j.location ? ` (${j.location})` : "";
+    const score = j.score != null ? ` · score ${j.score}` : "";
+    const link = j.url || j.link || "";
+    return `${i + 1}. ${j.title || "Untitled role"} at ${j.company || "Unknown company"}${where}${score}\n   ${link}`;
+  }).join("\n");
+}
+
+export function getReply(messages, jobs) {
+  const text = messages.at(-1).text.toLowerCase();
+
+  // Count consecutive misses from earlier bot replies (the server keeps no memory).
+  let misses = 0;
+  for (let i = messages.length - 2; i >= 0; i--) {
+    if (messages[i].role !== "assistant") continue;
+    if (messages[i].text.startsWith(NOT_UNDERSTOOD)) misses++;
+    else break;
   }
-  return { reply: "I needed too many steps for that one. Try asking more specifically.", steps: MAX_STEPS };
+
+  if (/(human|person|agent|support|help ?line|contact)/.test(text)) {
+    return handoff("Sure, here's how to reach us.");
+  }
+
+  // 1. Job search: look for a role or city in the message.
+  const city = CITIES.find(c => text.includes(c));
+  const role = ROLES.find(r => text.includes(r));
+  if (role || city || /\b(jobs?|roles?|openings?|internships?)\b/.test(text)) {
+    const results = searchMatches(jobs, {
+      keywords: role || undefined,
+      location: city && city !== "india" ? (city === "bangalore" ? "bengaluru" : city) : undefined,
+      still_open_only: /open|active|live/.test(text) || undefined,
+      max_results: 8,
+    });
+    if (results?.length) {
+      return `Here are the top matches${role ? ` for "${role}"` : ""}${city ? ` in ${city}` : ""}:\n\n${formatJobs(results)}`;
+    }
+    return `I couldn't find saved matches${role ? ` for "${role}"` : ""}${city ? ` in ${city}` : ""}. Try a broader role (like "analyst") or drop the location.`;
+  }
+
+  // 2. Prepared answers.
+  const faq = FAQS.find(f => f.keywords.some(k => text.includes(k)));
+  if (faq) return faq.reply;
+
+  // 3. Didn't understand: retry once, then hand over.
+  if (misses + 1 >= MAX_MISSES) return handoff("Sorry, I couldn't find an answer to that.");
+  return `${NOT_UNDERSTOOD} Try something like "data engineer jobs in Pune", or ask how the scoring works.`;
 }
 
 export default handle(async req => {
-   rateLimit(req);
+  rateLimit(req);
   const msgs = Array.isArray(req.body?.messages) ? req.body.messages.slice(-12) : [];
   if (!msgs.length || msgs.at(-1).role !== "user") throw new HttpError(400, "Send at least one user message.");
   for (const m of msgs) {
@@ -69,7 +90,7 @@ export default handle(async req => {
   }
   const jobs = await loadJobs(req);
   if (!jobs.length) {
-    return { reply: "There are no saved matches yet. The daily collector hasn't published any, so there's nothing for me to search. Check back after the next run.", steps: 0 };
+    return { reply: "There are no saved matches yet. Check back after the next daily run.", steps: 0 };
   }
-  return runChat(msgs, jobs, body => gemini(body));
+  return { reply: getReply(msgs, jobs), steps: 0 };
 });
