@@ -915,6 +915,30 @@
   "url": "https://www.adzuna.in/details/5907430693?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "General data engineering role that fits candidate's technical skills but lacks specific details."
  },
+ "https://www.adzuna.in/details/5907430797?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Atlassian",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Agram, Bangalore",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:06:06Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 4,
+  "snippet": "Working at Atlassian Atlassians can choose where they work \u2013 whether in an office, from home, or a combination of the two. That way, Atlassians have more control over supporting their family, personal goals, and other priorities. We can hire people in any country where we have a legal entity. Interviews and onboarding are conducted virtually, a part of being a distributed-first company. Your future team At DevInfra Transformations, we enable teams to ship quality at velocity. Our focus is to \u201c \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Developed options pricing engines cross-checked across NumPy, SciPy, and parallelized Monte Carlo simulations.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Machine Learning Engineer II",
+  "url": "https://www.adzuna.in/details/5907430797?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires mid-level machine learning engineering experience candidate lacks."
+ },
  "https://www.adzuna.in/details/5907431686?utm_medium=api&utm_source=3b72f8a6": {
   "company": "JK Moving Services",
   "duration": "",
@@ -939,6 +963,30 @@
   "url": "https://www.adzuna.in/details/5907431686?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Data engineering role matching candidate's pipeline development and dashboarding experience."
  },
+ "https://www.adzuna.in/details/5907448362?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Costco",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Hyderabad, Telangana",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:11:53Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 4,
+  "snippet": "We are seeking a proactive Associate/Mid-level GCP Data Engineer with 2 to 5 years of experience to design, build, and maintain scalable batch and streaming ETL/ELT pipelines on Google Cloud Platform. This role supports Retail analytics and Adtech/Martech data operations (including Retail Media Networks), working closely with senior engineers and analysts. Key Responsibilities: Design, build, and maintain batch and streaming data pipelines using Python, SQL, and PySpark on GCP. Orchestrate pipe\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Engineer Level 2b",
+  "url": "https://www.adzuna.in/details/5907448362?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires two to five years of GCP experience candidate lacks."
+ },
  "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Altium",
   "duration": "",
@@ -962,6 +1010,30 @@
   "title": "Software Engineer - Frontend Developer (Angular)",
   "url": "https://www.adzuna.in/details/5907458551?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Frontend role requiring Angular, which does not match the candidate's backend and data skillset."
+ },
+ "https://www.adzuna.in/details/5907458606?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Amazon",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Hyderabad, Telangana",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:14:56Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 3,
+  "snippet": "Description We are looking for mid-senior System Analysts with a strong technical background. Do you have passion for using data in order to drive process improvements? Are you experienced with SQL, Excel and Quicksight? This is an amazing opportunity if you are you keen to innovate by identifying improvement opportunities providing to the Marketplace business with robust automated insights. In this role, you will help identify, track and manage Key Performance Indicators (KPIs), partner with t\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analyst-II, Marketplace Recruitment & Dev",
+  "url": "https://www.adzuna.in/details/5907458606?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires mid-to-senior systems analyst experience which candidate lacks."
  },
  "https://www.adzuna.in/details/5907459600?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Amazon",
@@ -1083,6 +1155,54 @@
   "url": "https://www.adzuna.in/details/5907459713?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Mid-level role requiring professional experience in high-concurrency resilience frameworks."
  },
+ "https://www.adzuna.in/details/5907460106?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Applied Materials",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:15:23Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 8,
+  "snippet": "Who We Are Applied Materials is the global leader in materials science and engineering solutions that are at the foundation of virtually every new semiconductor chip and advanced display in the world. The equipment that we create and service is essential to advancing AI and accelerating the commercialization of next-generation semiconductor chips. Join us and push the boundaries of materials science and engineering in a company at the foundation of the electronics industry. The work we do toget\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Intelligence Analyst",
+  "url": "https://www.adzuna.in/details/5907460106?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Great match for business intelligence and data visualization skills."
+ },
+ "https://www.adzuna.in/details/5907461403?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Cisco",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:15:40Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 4,
+  "snippet": "Meet the Team The Webex Engineering Analytics team is responsible for developing and operating pipelines for Big Data Analytics built on state-of-the-art big data technologies that both solve complex data driven development problems for Webex engineering and enable critical business insights for Webex product. We are looking for a hands-on Software Engineer to join a high-impact data engineering and analytics team with a focus on developing data products and features by leveraging state-of-the-\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer- Master's (Full Time)",
+  "url": "https://www.adzuna.in/details/5907461403?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires a Master's degree which the candidate does not have."
+ },
  "https://www.adzuna.in/details/5907461510?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Citigroup",
   "duration": "",
@@ -1106,6 +1226,30 @@
   "title": "Big Data Engineer - Python and Spark",
   "url": "https://www.adzuna.in/details/5907461510?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Trainee-level engineering role at a financial institution, perfect for candidate's Python skills."
+ },
+ "https://www.adzuna.in/details/5907461639?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Citigroup",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:15:44Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 9,
+  "snippet": "About CITI Citi's mission is to serve as a trusted partner to our clients by responsibly providing financial services that enable growth and economic progress. We have 200 years of experience helping our clients meet the world's toughest challenges and embrace its greatest opportunities. Analytics and Information Management (AIM) Citi AIM was established in 2003, and is located across multiple cities in India - Bengaluru, Chennai, Pune and Mumbai. It is a global community that objectively conne\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analytics Analyst",
+  "url": "https://www.adzuna.in/details/5907461639?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Excellent entry-level trainee role matching data analytics skills."
  },
  "https://www.adzuna.in/details/5907461667?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Citigroup",
@@ -1131,6 +1275,54 @@
   "url": "https://www.adzuna.in/details/5907461667?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires SAS experience and professional data management background."
  },
+ "https://www.adzuna.in/details/5907461681?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Citigroup",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:15:44Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 6,
+  "snippet": "The Business Analytics Int Analyst is a developing professional role. Deals with most problems independently and has some latitude to solve complex problems. Integrates in-depth specialty area knowledge with a solid understanding of industry standards and practices. Good understanding of how the team and area integrate with others in accomplishing the objectives of the sub function/ job family. Applies analytical thinking and knowledge of data analysis tools and methodologies. Requires attentio\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analytics Int Analyst - C11 - GURGAON",
+  "url": "https://www.adzuna.in/details/5907461681?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires developing professional experience but matches analytics skills."
+ },
+ "https://www.adzuna.in/details/5907461698?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Citigroup",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:15:45Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 9,
+  "snippet": "The Business Analytics Analyst 1 is a trainee professional role. Requires a good knowledge of the range of processes, procedures and systems to be used in carrying out assigned tasks and a basic understanding of the underlying concepts and principles upon which the job is based. Good understanding of how the team interacts with others in accomplishing the objectives of the area. Makes evaluative judgements based on the analysis of factual information. They are expected to resolve problems by id\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analytics Analyst",
+  "url": "https://www.adzuna.in/details/5907461698?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Excellent entry-level trainee role matching data analytics skills."
+ },
  "https://www.adzuna.in/details/5907461706?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Citigroup",
   "duration": "",
@@ -1154,6 +1346,30 @@
   "title": "Machine Learning Engineer - Python and SQL",
   "url": "https://www.adzuna.in/details/5907461706?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Entry-level machine learning role in finance, matching candidate's quant and Python skills."
+ },
+ "https://www.adzuna.in/details/5907463211?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Fresenius Medical Care",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:16:03Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 2,
+  "snippet": "Job Summary: We are seeking a skilled ServiceNow Business Analyst to join our dynamic team. This role will be instrumental in bridging the gap between business needs and IT solutions, ensuring the successful implementation and optimization of ServiceNow solutions. The ideal candidate will be responsible for gathering requirements, analyzing business processes, and facilitating agile development methodologies to drive efficiency and automation. Key Responsibilities: Serve as a Business Analyst \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "ServiceNow Business Analyst",
+  "url": "https://www.adzuna.in/details/5907463211?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires ServiceNow business analyst experience which candidate lacks."
  },
  "https://www.adzuna.in/details/5907466122?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Kyndryl",
@@ -1275,6 +1491,30 @@
   "url": "https://www.adzuna.in/details/5907467094?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Advisor-level role requiring extensive professional experience and architectural leadership."
  },
+ "https://www.adzuna.in/details/5907469686?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "TIAA",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Mumbai, Maharashtra",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:18:03Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 4,
+  "snippet": "Mumbai, India Full time R260500378 Associate Data Analytics The Data Analytics Associate reviews and approves complex analytics and statistical modeling on large data sets that identify current market sector trends and customer patterns. This job directs the examination and identification of data patterns and trends that help answer business questions and improve decision-making. The Data Analytics Associate oversees the collection of data sources, as well as the analysis and extraction of key \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Associate - Performance & Analytics",
+  "url": "https://www.adzuna.in/details/5907469686?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires mid-to-senior level experience directing and overseeing data analytics."
+ },
  "https://www.adzuna.in/details/5907469690?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Procter & Gamble",
   "duration": "",
@@ -1299,6 +1539,30 @@
   "url": "https://www.adzuna.in/details/5907469690?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Python and data platform engineering role matching candidate's backend and data skills."
  },
+ "https://www.adzuna.in/details/5907469993?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Synchrony",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Hyderabad, Telangana",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:18:10Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 9,
+  "snippet": "Business Leadership Program - Data Analytics (Open) COMPANY OVERVIEW: Synchrony (NYSE: SYF) is a premier consumer financial services company delivering one of the industry's most complete digitally enabled product suites. Our experience, expertise and scale encompass a broad spectrum of industries including digital, health and wellness, retail, telecommunications, home, auto, outdoors, pet and more. - We have recently been ranked 2 among India's Best Companies to Work for by Great Place to Work\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "L08 Business Leadership Program - Data Analytics",
+  "url": "https://www.adzuna.in/details/5907469993?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Excellent rotational leadership program for entry-level data analysts."
+ },
  "https://www.adzuna.in/details/5907470443?utm_medium=api&utm_source=3b72f8a6": {
   "company": "UnitedHealth Group",
   "duration": "",
@@ -1322,6 +1586,54 @@
   "title": "Software Engineer",
   "url": "https://www.adzuna.in/details/5907470443?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "General software engineering role suitable for candidate's Python and backend development skills."
+ },
+ "https://www.adzuna.in/details/5907470573?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "UnitedHealth Group",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Gurgaon, Haryana",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:18:23Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 7,
+  "snippet": "Requisition number: 2380324 Job category: Technology Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed options pricing engines cross-checked across NumPy, SciPy, and parallelized Monte Carlo simulations.",
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "AI/ML Engineer",
+  "url": "https://www.adzuna.in/details/5907470573?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Good match for quantitative modeling and Python programming skills."
+ },
+ "https://www.adzuna.in/details/5907470583?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "UnitedHealth Group",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Gurgaon, Haryana",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T11:18:23Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 5,
+  "snippet": "Requisition number: 2391464 Job category: Business & Data Analytics Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analyst Consultant",
+  "url": "https://www.adzuna.in/details/5907470583?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires consultant-level experience which the candidate lacks."
  },
  "https://www.adzuna.in/details/5907833816?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Prime Video & Amazon MGM Studios",
@@ -1419,6 +1731,30 @@
   "url": "https://www.adzuna.in/details/5907833937?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Senior role requiring extensive Java experience which the candidate lacks."
  },
+ "https://www.adzuna.in/details/5907834237?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "SCIENTIFIC GAMES",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T16:25:17Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 3,
+  "snippet": "Scientific Games Scientific Games is the global leader in lottery games, sports betting and technology, and the partner of choice for government lotteries. From cutting-edge backend systems to exciting entertainment experiences and trailblazing retail and digital solutions, we elevate play every day. We push game designs to the next level and are pioneers in data analytics and iLottery. Built on a foundation of trusted partnerships, Scientific Games combines relentless innovation, legendary per\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer - Java Developer",
+  "url": "https://www.adzuna.in/details/5907834237?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires Java development experience which the candidate lacks."
+ },
  "https://www.adzuna.in/details/5907867456?utm_medium=api&utm_source=3b72f8a6": {
   "company": "ADCI - Karnataka",
   "duration": "full_time",
@@ -1442,6 +1778,30 @@
   "title": "Software Development Engineer II, Infrastructure Supply Chain Automation, Infrastructure Supply Chain Automation",
   "url": "https://www.adzuna.in/details/5907867456?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Mid-level software engineering role requiring professional experience in supply chain automation."
+ },
+ "https://www.adzuna.in/details/5907900766?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "ADCI - Karnataka",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T16:36:35Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 8,
+  "snippet": "Are you interested in diving deep into the data and engineering the metrics model that drives continuous improvement for Amazon\u2019s eCommerce systems? Do you have solid problem-solving abilities, metrics-driven decision making and want to solve problems with solutions that will meet the growing worldwide need for Amazon\u2019s products? Then eCommerce Services is the team for you. We are part of building the world's best, most reliable, and most feature-rich eCommerce platform that provides customers \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Intelligence Engineer, eCS Data Engineering and Analytics",
+  "url": "https://www.adzuna.in/details/5907900766?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Great match for business intelligence engineering with SQL and Power BI."
  },
  "https://www.adzuna.in/details/5907946616?utm_medium=api&utm_source=3b72f8a6": {
   "company": "ADCI HYD 13 SEZ",
@@ -1515,6 +1875,30 @@
   "url": "https://www.adzuna.in/details/5908314084?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires three to six years of experience in large-scale data applications."
  },
+ "https://www.adzuna.in/details/5908331483?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Expedia",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:27:43Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 4,
+  "snippet": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and travel advertising business. Here, you'll do meaningful work that helps millions of people discover, book, and experience travel with more ease, confidence, and joy. Our five Behaviors-Traveler First, Think Big, Operate with\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Developed options pricing engines cross-checked across NumPy, SciPy, and parallelized Monte Carlo simulations.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Scientist II, Marketplace Analytics",
+  "url": "https://www.adzuna.in/details/5908331483?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires mid-level data science experience which the candidate lacks."
+ },
  "https://www.adzuna.in/details/5908338682?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Honeywell",
   "duration": "full_time",
@@ -1539,6 +1923,30 @@
   "url": "https://www.adzuna.in/details/5908338682?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires leadership experience to guide a team of analysts, unsuitable for a new grad."
  },
+ "https://www.adzuna.in/details/5908340320?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Kotak Mahindra Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:30:36Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 2,
+  "snippet": "Description Job Title : Data Engineer (DE) Location : Hyderabad / Bangalore Experience range : 3-8 What we offer Our mission is simple \u2013 Building trust. Our customer's trust in us is not merely about the safety of their assets but also about how dependable our digital offerings are. That\u2019s why, we at Kotak Group are dedicated to transforming banking by imbibing a technology-first approach in everything we do, with an aim to enhance customer experience by providing superior banking services. We \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Science II-SUPPORT SERVICES-Data & Analytics - In House Engineering",
+  "url": "https://www.adzuna.in/details/5908340320?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires three to eight years of experience candidate lacks."
+ },
  "https://www.adzuna.in/details/5908344579?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Zoetis",
   "duration": "full_time",
@@ -1562,6 +1970,54 @@
   "title": "Data Engineer",
   "url": "https://www.adzuna.in/details/5908344579?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Data engineering role matching candidate's Python, SQL, and pipeline development skills."
+ },
+ "https://www.adzuna.in/details/5908348096?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Natwest Group",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:32:14Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 7,
+  "snippet": "Join us as a Software Engineer This is an opportunity for a driven Software Engineer to take on an exciting new career challenge Day-to-day, you'll be engineering and maintaining innovative, customer centric, high performance, secure and robust solutions It\u2019s a chance to hone your existing technical skills and advance your career while building a wide network of stakeholders We're offering this role at associate level What you'll do In your new role, you\u2019ll be working within a feature team to e\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer",
+  "url": "https://www.adzuna.in/details/5908348096?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Good entry-level software engineering role matching Python and Rust."
+ },
+ "https://www.adzuna.in/details/5908361337?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Hewlett Packard Enterprise",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:34:53Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 10,
+  "snippet": "Finance Transformation Data Scientist This role has been designed as \u2018\u2019Onsite\u2019 with an expectation that you will primarily work from an HPE office. Who We Are: Hewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex world. Our culture th\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting at HPE by writing optimized SQL queries to streamline data workflows.",
+   "Developed a credit risk simulator using FastAPI and Streamlit to model expected credit loss."
+  ],
+  "title": "Finance Transformation Data Scientist",
+  "url": "https://www.adzuna.in/details/5908361337?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Perfect match with previous HPE internship and quantitative finance background."
  },
  "https://www.adzuna.in/details/5908363547?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Intel",
@@ -1683,6 +2139,54 @@
   "url": "https://www.adzuna.in/details/5908386551?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires five years of experience in cloud backend and security engineering."
  },
+ "https://www.adzuna.in/details/5908388106?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "State Street",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:40:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 7,
+  "snippet": "State Street\u2019s Alpha Services Client Reporting Team offers a full suite of reporting services required by the most sophisticated Investment Managers. We gather data from multiple sources internally and externally from - IBOR, ABOR, performance, market data vendors and client supplied data, which runs through a robust workflow to produce end client reports or provides insights via data visualization. We are a self-service report development team who has taken the initiative to meet the most comp\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Self Service Reporting, Business Analyst, Officer",
+  "url": "https://www.adzuna.in/details/5908388106?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Good fit for reporting and data visualization with Power BI."
+ },
+ "https://www.adzuna.in/details/5908390775?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Johnson & Johnson",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:41:22Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 5,
+  "snippet": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Experienced Analyst, Business Intelligence",
+  "url": "https://www.adzuna.in/details/5908390775?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires experienced BI analyst background but matches core skills."
+ },
  "https://www.adzuna.in/details/5908393012?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Barclays",
   "duration": "full_time",
@@ -1730,6 +2234,30 @@
   "title": "Analyst - Data Engineering 5A",
   "url": "https://www.adzuna.in/details/5908394709?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Entry-level data engineering role matching candidate's Python, SQL, and pipeline skills."
+ },
+ "https://www.adzuna.in/details/5908395564?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Ciklum",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "India",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:42:59Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 5,
+  "snippet": "Description Ciklum is looking for a Mobile Analytics Engineer to join our team full-time in India. We are a custom product engineering company that supports both multinational organizations and scaling startups to solve their most complex business challenges. With a global team of over 4,000 highly skilled developers, consultants, analysts and product owners, we engineer technology that redefines industries and shapes the way people live. About the role: As a Mobile Analytics Engineer, become a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Mobile Analytics Engineer",
+  "url": "https://www.adzuna.in/details/5908395564?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires mobile analytics experience which the candidate lacks."
  },
  "https://www.adzuna.in/details/5908395792?utm_medium=api&utm_source=3b72f8a6": {
   "company": "DAT",
@@ -1947,6 +2475,54 @@
   "url": "https://www.adzuna.in/details/5908399708?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Software Engineer II role requiring professional experience beyond a new graduate."
  },
+ "https://www.adzuna.in/details/5908400012?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "EXL",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Pune, Maharashtra",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:45:23Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 8,
+  "snippet": "Description Key Responsibilities Technical Execution \u2022 Build and maintain high-performance REST/WebSocket APIs using FastAPI (Pydantic v2) \u2022 Implement and optimize agentic AI systems using frameworks like LangGraph, Deep Agents, AutoGen, and LangChain \u2022 Architect real-time, event-driven microservices using messaging queues like Apache Kafka \u2022 Design clean, testable, maintainable services using SOLID principles, Python async, and type hints \u2022 Integrate and optimize SQL, NoSQL, and vector databas\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Scientist",
+  "url": "https://www.adzuna.in/details/5908400012?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Great match for FastAPI, Python, and real-time backend development."
+ },
+ "https://www.adzuna.in/details/5908400121?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "GE HealthCare",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "India",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:45:26Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "Job Description Summary Responsible for designing, building, delivering and maintaining software applications & services. Working in the areas of machine, cloud, platform and/or application. Responsible for software lifecycle including activities such as requirement analysis, documentation/procedures and implementation. We're looking for a Senior AEM Developer to build and improve high-performing digital experiences on Adobe Experience Manager. You will work on AEM as a Cloud Service and Edge D\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer",
+  "url": "https://www.adzuna.in/details/5908400121?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires Adobe Experience Manager development experience candidate lacks."
+ },
  "https://www.adzuna.in/details/5908400430?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Accenture",
   "duration": "full_time",
@@ -2091,6 +2667,30 @@
   "url": "https://www.adzuna.in/details/5908405031?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires three years of experience and specific Oracle EPBCS skills the candidate lacks."
  },
+ "https://www.adzuna.in/details/5908405817?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "JPMorganChase",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Mumbai, Maharashtra",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:48:30Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 3,
+  "snippet": "Description You\u2019re ready to gain the skills and experience needed to grow within your role and advance your career \u2014 and we have the perfect software engineering opportunity for you. As a Software Engineer II at JPMorganChase within the Commercial & Investment Bank- Payments Technology team, you are part of an agile team that works to enhance, design, and deliver the software components of the firm\u2019s state-of-the-art technology products in a secure, stable, and scalable way. As an emerging memb\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer II - Java, Observability, OTel, Dynatrace",
+  "url": "https://www.adzuna.in/details/5908405817?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires Java and observability experience which the candidate lacks."
+ },
  "https://www.adzuna.in/details/5908407499?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Natwest Group",
   "duration": "full_time",
@@ -2138,6 +2738,102 @@
   "title": "Cloud Data Engineer",
   "url": "https://www.adzuna.in/details/5908407943?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Finance-focused engineering role that aligns perfectly with candidate's quantitative finance projects."
+ },
+ "https://www.adzuna.in/details/5908408262?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "WM Global Technology Services India",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "India",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:50:06Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "Position Summary Demonstrates up-to-date expertise and applies this to the development, execution, and improvement of action plans by providing expert advice and guidance to others in the application of information and best practices; supporting and aligning efforts to meet customer and business needs; and building commitment for perspectives and rationales. Provides and supports the implementation of business solutions by building relationships and partnerships with key stakeholders; identifyi\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Developed options pricing engines cross-checked across NumPy, SciPy, and parallelized Monte Carlo simulations.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data scientist III",
+  "url": "https://www.adzuna.in/details/5908408262?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires senior-level data science experience which the candidate lacks."
+ },
+ "https://www.adzuna.in/details/5908409061?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Applied Information Sciences",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "India",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-02T21:50:32Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 8,
+  "snippet": "Why AIS? When you join AIS, you\u2019re joining a mission-driven team that\u2019s passionate about making a difference. You\u2019ll work on projects that matter, alongside industry-leading experts, in an environment that fosters innovation, driving client success, and empowering our team to make a lasting impact. As an employee-owned company, we value collaboration, inclusivity, continuous growth, and shared success. Employee Ownership : Your contributions directly impact the company\u2019s success, and you share \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end."
+  ],
+  "title": "Data Analytics Engineer",
+  "url": "https://www.adzuna.in/details/5908409061?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Excellent match for data analytics engineering with SQL and Power BI."
+ },
+ "https://www.adzuna.in/details/5908607912?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Tekwissen India",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "India",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T00:21:38Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "Overview: TekWissen Group is a workforce management provider throughout India and many other countries in the world. Position: Business Development Leader AI, SaaS & Software Engineering Location: Bangalore, Karnataka Job Type: Full Time Work Type : Onsite Job Description: a { text-decoration: none; color: 464feb; } tr th, tr td { border: 1px solid e6e6e6; } tr th { background-color: f5f5f5; } We are looking for a high-impact Business Development Leader AI, SaaS & Software Engineering to build \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Development Leader - AI, SaaS & Software Engineering",
+  "url": "https://www.adzuna.in/details/5908607912?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "This is a sales and business development role, not technical."
+ },
+ "https://www.adzuna.in/details/5908609938?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "CGI",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T00:25:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "Position Description Must Have: Minimum of 4 years of hands on experience performing the following tasks in Workday: Core HCM Business Process, Security configurations Executing EIB loads (simple to complex) Managing Workday Hierarchies creating/updating supervisory orgs, cost centers, locations & custom orgs Inbox ticket management experience (JIRA, ServiceNow) Creating and managing Stories/tasks in JIRA Monitoring of upstream/downstream integrations Development of Custom and Standard reports \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Business Analyst- Workday Core HCM",
+  "url": "https://www.adzuna.in/details/5908609938?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires four years of Workday experience which candidate lacks."
  },
  "https://www.adzuna.in/details/5909232119?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Schneider Electric",
@@ -2235,6 +2931,54 @@
   "url": "https://www.adzuna.in/details/5909285863?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Requires professional experience with Snowflake and dbt which the candidate lacks."
  },
+ "https://www.adzuna.in/details/5909285915?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Infosys Limited",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T08:11:03Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 3,
+  "snippet": "Job Description: We are seeking an experienced AI ML Engineer with expertise in Generative AI Machine Learning and AWS Cloud to design develop deploy and optimize AI driven solutions The ideal candidate should have hands on experience in building scalable ML models implementing GenAI use cases using LLMs and deploying AI applications on AWS Key Responsibilities: Generative AI ML AWS Design deploy ML pipelines and LLM powered agents RAG Agentic AI using AWS Bedrock SageMaker LangGraph Develop tr\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "AI/ML Engineer (Generative AI, ML,AWS)",
+  "url": "https://www.adzuna.in/details/5909285915?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires extensive Generative AI and AWS experience candidate lacks."
+ },
+ "https://www.adzuna.in/details/5909285921?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Infosys Limited",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T08:11:03Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 3,
+  "snippet": "Job Description: We are seeking an experienced AI ML Engineer with expertise in Generative AI Machine Learning and AWS Cloud to design develop deploy and optimize AI driven solutions The ideal candidate should have hands on experience in building scalable ML models implementing GenAI use cases using LLMs and deploying AI applications on AWS Key Responsibilities: Design deploy ML pipelines and LLM powered agents RAG Agentic AI using AWS Bedrock SageMaker LangGraph Develop train and productionize\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "AI/ML Engineer (Generative AI, ML,AWS)",
+  "url": "https://www.adzuna.in/details/5909285921?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Requires extensive Generative AI and AWS experience candidate lacks."
+ },
  "https://www.adzuna.in/details/5909546367?utm_medium=api&utm_source=3b72f8a6": {
   "company": "Amazon",
   "duration": "",
@@ -2258,6 +3002,30 @@
   "title": "Data Engineer II, SPIV Data Engineering",
   "url": "https://www.adzuna.in/details/5909546367?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Level five role requiring extensive professional experience beyond a new graduate level."
+ },
+ "https://www.adzuna.in/details/5909546408?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Amazon",
+  "duration": "",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T11:15:43Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 7,
+  "snippet": "Description About the Team Amazon's Devices & Services Trust CX Innovations team is building the future of responsible AI for consumer devices. We deliver privacy-first, accessible, and trustworthy AI experiences that millions of customers use daily across Amazon's device ecosystem-including Alexa, Echo, and other ambient computing products. Our mission is to ensure that as we push the boundaries of generative AI innovation, we maintain Amazon's high bar for customer trust, privacy, inclusion, \u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Development Engineer, AI Trust & Innovation",
+  "url": "https://www.adzuna.in/details/5909546408?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Good entry-level software engineering role matching Python backend skills."
  },
  "https://www.adzuna.in/details/5909546600?utm_medium=api&utm_source=3b72f8a6": {
   "company": "CDM Smith",
@@ -2595,6 +3363,54 @@
   "url": "https://www.adzuna.in/land/ad/5908978166?se=MEgEUhC_8RGN96JAzfykhw&utm_medium=api&utm_source=3b72f8a6&v=2EF6479C20B8ED6887DD7C39C6D50561DEB6A068",
   "why_it_fits": "Focuses on operational data maintenance and compliance rather than quantitative data analysis."
  },
+ "https://www.adzuna.in/land/ad/5908978166?se=NIVqeRS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=2EF6479C20B8ED6887DD7C39C6D50561DEB6A068": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 6,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview The Reference Data & SSI Operations Analyst is responsible for managing, validating, and maintaining high-quality strategic data across the organization's systems. This role ensures data accuracy for regulatory compliance and business operations, handles the end-to-end setup of Standard Settl\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Reference Data Analyst, NCT",
+  "url": "https://www.adzuna.in/land/ad/5908978166?se=NIVqeRS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=2EF6479C20B8ED6887DD7C39C6D50561DEB6A068",
+  "why_it_fits": "Entry-level reference data role matching basic data analysis skills."
+ },
+ "https://www.adzuna.in/land/ad/5908978166?se=uuD7eRS_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=3b72f8a6&v=2EF6479C20B8ED6887DD7C39C6D50561DEB6A068": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 6,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview The Reference Data & SSI Operations Analyst is responsible for managing, validating, and maintaining high-quality strategic data across the organization's systems. This role ensures data accuracy for regulatory compliance and business operations, handles the end-to-end setup of Standard Settl\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Reference Data Analyst, NCT",
+  "url": "https://www.adzuna.in/land/ad/5908978166?se=uuD7eRS_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=3b72f8a6&v=2EF6479C20B8ED6887DD7C39C6D50561DEB6A068",
+  "why_it_fits": "Entry-level reference data role matching basic data analysis skills."
+ },
  "https://www.adzuna.in/land/ad/5908978174?se=FovdVBC_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472": {
   "company": "Deutsche Bank",
   "duration": "full_time",
@@ -2619,6 +3435,126 @@
   "url": "https://www.adzuna.in/land/ad/5908978174?se=FovdVBC_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472",
   "why_it_fits": "Assistant Vice President level role requiring extensive professional experience."
  },
+ "https://www.adzuna.in/land/ad/5908978174?se=PtOkghS_8RGKhemk06lNOQ&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 2,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview Role Description Investment Bank and Cross Product Operations (IBCPO) is fully integrated, front-to-back aligned delivery model providing transaction, reporting and cash management services to Deutsche Bank\u2019s multi-asset global businesses including IB \u2013 FIC Sales and Trading, Corporate Bank a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Engineer, AVP",
+  "url": "https://www.adzuna.in/land/ad/5908978174?se=PtOkghS_8RGKhemk06lNOQ&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472",
+  "why_it_fits": "Requires senior AVP level experience which the candidate lacks."
+ },
+ "https://www.adzuna.in/land/ad/5908978174?se=fgL_fBS_8RGLB671uel1aw&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 2,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview Role Description Investment Bank and Cross Product Operations (IBCPO) is fully integrated, front-to-back aligned delivery model providing transaction, reporting and cash management services to Deutsche Bank\u2019s multi-asset global businesses including IB \u2013 FIC Sales and Trading, Corporate Bank a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Engineer, AVP",
+  "url": "https://www.adzuna.in/land/ad/5908978174?se=fgL_fBS_8RGLB671uel1aw&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472",
+  "why_it_fits": "Requires senior AVP level experience which the candidate lacks."
+ },
+ "https://www.adzuna.in/land/ad/5908978174?se=jlw1ghS_8RGdRLcUnFY4TA&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:31Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 2,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview Role Description Investment Bank and Cross Product Operations (IBCPO) is fully integrated, front-to-back aligned delivery model providing transaction, reporting and cash management services to Deutsche Bank\u2019s multi-asset global businesses including IB \u2013 FIC Sales and Trading, Corporate Bank a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Data Engineer, AVP",
+  "url": "https://www.adzuna.in/land/ad/5908978174?se=jlw1ghS_8RGdRLcUnFY4TA&utm_medium=api&utm_source=3b72f8a6&v=FEA175C49863BBFDCB17499702B220F5A201F472",
+  "why_it_fits": "Requires senior AVP level experience which the candidate lacks."
+ },
+ "https://www.adzuna.in/land/ad/5908978211?se=Lv1lfxS_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=3b72f8a6&v=39DAFAEEDEBFEC78881B42B424BC0C6191BF9ED0": {
+  "company": "eBay",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:36Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "This job is with eBay, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. At eBay, we're more than a global ecommerce leader - we're changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We're committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts. Our cu\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer 3",
+  "url": "https://www.adzuna.in/land/ad/5908978211?se=Lv1lfxS_8RGTyvTH5qRQ7A&utm_medium=api&utm_source=3b72f8a6&v=39DAFAEEDEBFEC78881B42B424BC0C6191BF9ED0",
+  "why_it_fits": "Requires senior software engineering experience which the candidate lacks."
+ },
+ "https://www.adzuna.in/land/ad/5908978211?se=mD_IfxS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=39DAFAEEDEBFEC78881B42B424BC0C6191BF9ED0": {
+  "company": "eBay",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Bangalore, Karnataka",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:36Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 1,
+  "snippet": "This job is with eBay, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. At eBay, we're more than a global ecommerce leader - we're changing the way the world shops and sells. Our platform empowers millions of buyers and sellers in more than 190 markets around the world. We're committed to pushing boundaries and leaving our mark as we reinvent the future of ecommerce for enthusiasts. Our cu\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Developed a credit risk simulator exposed as a FastAPI service with a Streamlit front end.",
+   "Built real-time sensor monitoring systems utilizing a high-performance Rust backend and live streaming front end.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows."
+  ],
+  "title": "Software Engineer 3",
+  "url": "https://www.adzuna.in/land/ad/5908978211?se=mD_IfxS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=39DAFAEEDEBFEC78881B42B424BC0C6191BF9ED0",
+  "why_it_fits": "Requires senior software engineering experience which the candidate lacks."
+ },
  "https://www.adzuna.in/land/ad/5908978223?se=6laWURC_8RGdRLcUnFY4TA&utm_medium=api&utm_source=3b72f8a6&v=D3D1D8C193B2A1E40859A772F5B6D3692FAD3859": {
   "company": "Deutsche Bank",
   "duration": "full_time",
@@ -2642,5 +3578,29 @@
   "title": "Reference Data Analyst",
   "url": "https://www.adzuna.in/land/ad/5908978223?se=6laWURC_8RGdRLcUnFY4TA&utm_medium=api&utm_source=3b72f8a6&v=D3D1D8C193B2A1E40859A772F5B6D3692FAD3859",
   "why_it_fits": "Operational reference data role that does not align with candidate's quantitative skills."
+ },
+ "https://www.adzuna.in/land/ad/5908978223?se=NIVqeRS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=D3D1D8C193B2A1E40859A772F5B6D3692FAD3859": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Jaipur, Rajasthan",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T05:20:37Z",
+  "salary": "",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 6,
+  "snippet": "This job is with Deutsche Bank, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Position Overview Role Description The Reference Data Analyst focuses on effective oversight of strategic data used across the bank\u2019s systems and infrastructure. The Reference Data Analyst supports various elements of the data lifecycle, from ensuring that data is captured from the best source, to validating a\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer during HPE internship.",
+   "Automated manual KPI reporting by writing SQL queries to streamline operational data workflows.",
+   "Built an interactive analytics dashboard for India's Department of Post to visualize key metrics."
+  ],
+  "title": "Reference Data Analyst",
+  "url": "https://www.adzuna.in/land/ad/5908978223?se=NIVqeRS_8RG3h40zQFG-iQ&utm_medium=api&utm_source=3b72f8a6&v=D3D1D8C193B2A1E40859A772F5B6D3692FAD3859",
+  "why_it_fits": "Entry-level reference data role matching basic data analysis skills."
  }
 }
