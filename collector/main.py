@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from . import adzuna, boards, config as C, filters, linkedin, normalize, scorer, store
+from . import adzuna, boards, config as C, filters, linkedin, normalize, notify, scorer, store
 
 log = logging.getLogger("collector")
 
@@ -65,17 +65,23 @@ def run(api_key, session=None, now=None):
         new = sorted(new, key=lambda j: j.get("days_live", 999))[:C.MAX_TO_SCORE]
 
     # 4. score, recording each job only once it has a score
-    scored = 0
+    scored_now = []
     for job, result in scorer.score(new, profile, api_key, session):
         store.record(db, job, result, today)
-        scored += 1
+        scored_now.append((job, result))
+    scored = len(scored_now)
     log.info("scored %d of %d new jobs", scored, len(new))
 
     store.save(db)
     rows = store.publish(db, now)
     log.info("published %d matches (score >= %d)", len(rows), C.MIN_SCORE)
-    return {"fetched": len(jobs), "kept": len(kept), "new": len(new), "scored": scored, "published": len(rows)}
+    
+    # 5. tell the human about the strong ones - only those scored in this run,
+    # so the same job is never emailed twice. Never raises.
+    notified = notify.send(scored_now, session)
 
+    return {"fetched": len(jobs), "kept": len(kept), "new": len(new),
+            "scored": scored, "published": len(rows), "notified": notified}
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
