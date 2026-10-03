@@ -75,7 +75,7 @@ BATCH_SIZE = 40
 # Gemini's free tier has a daily request cap. Search sources return far more jobs
 # than boards did, so cap how many get scored per run. Unscored jobs are not
 # recorded, so they are simply picked up by the next run.
-MAX_TO_SCORE = 120
+MAX_TO_SCORE = 40
 MAX_GEMINI_CALLS_PER_RUN = 6
 MIN_SCORE = 7
 # Email only the strong ones. MIN_SCORE decides what the site publishes;
