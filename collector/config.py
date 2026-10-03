@@ -78,6 +78,9 @@ BATCH_SIZE = 40
 MAX_TO_SCORE = 120
 MAX_GEMINI_CALLS_PER_RUN = 6
 MIN_SCORE = 7
+# Email only the strong ones. MIN_SCORE decides what the site publishes;
+# this decides what is worth interrupting someone for.
+NOTIFY_MIN_SCORE = 9
 DESCRIPTION_CHARS = 3000
 SNIPPET_CHARS = 600
 
