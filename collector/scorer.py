@@ -108,16 +108,16 @@ def call(prompt, api_key, session=None, retries=3):
                 if not auth_problem:
                     break
                 log.warning("gemini auth attempt %d rejected (HTTP %s)", i + 1, r.status_code)
-                        if r.status_code == 429:
-                raise QuotaExhausted(getattr(r, "text", "")[:200])
-            if r.status_code >= 500:
-                raise RuntimeError(f"HTTP {r.status_code}: {getattr(r, 'text', '')[:300]}")
+            if r.status_code == 429:                                                    ←
+                raise QuotaExhausted(getattr(r, "text", "")[:200])                      ←
+            if r.status_code >= 500:                                                    ←
+                raise RuntimeError(f"HTTP {r.status_code}: {getattr(r, 'text', '')[:300]}")  ←
             if r.status_code >= 400:
                 log.error("gemini rejected the request (HTTP %s): %s", r.status_code, getattr(r, "text", "")[:300])
                 return None
             r.raise_for_status()
             return r.json()
-                except QuotaExhausted:
+        except QuotaExhausted:
             raise                       # never retried - see the class docstring
         except Exception as e:  # noqa: BLE001
             wait = 10 * (attempt + 1)   # 503 'high demand' needs real backoff
