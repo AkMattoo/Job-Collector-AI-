@@ -18,7 +18,6 @@ ${list}`;
 }
 
 export function mergeScores(jobs, data) {
-  rateLimit(req);
   let items = [];
   try { items = JSON.parse(data.candidates[0].content.parts[0].text); } catch { items = []; }
   const byIdx = new Map((Array.isArray(items) ? items : [])
@@ -32,6 +31,7 @@ export function mergeScores(jobs, data) {
 }
 
 export default handle(async req => {
+  rateLimit(req);
   const resume = String(req.body?.resume || "").trim();
   if (resume.length < 200) throw new HttpError(400, "Couldn't read enough text from that resume. If it's a scanned PDF, export a text-based one.");
   const jobs = (await loadJobs(req)).filter(j => j.still_open).slice(0, TOP);
