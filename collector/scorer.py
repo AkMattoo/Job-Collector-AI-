@@ -72,6 +72,7 @@ class QuotaExhausted(Exception):
     """The daily free-tier budget is gone. Retrying cannot help: it resets on a
     clock, not on a timer. Raised so the run stops instead of burning requests."""
 
+
 def auth_headers(api_key):
     """x-goog-api-key works for both old AIza keys and the new AQ. auth keys -
     confirmed against the live API, where an AQ. key on a bearer header returns
@@ -126,11 +127,14 @@ def call(prompt, api_key, session=None, retries=3):
     return None
 
 
-def score(jobs, profile, api_key, session=None, pause=4):
+def score(jobs, profile, api_key, session=None, pause=15):  # free tier: 5 req/min
     """Yield (job, result) only for jobs that were actually scored.
     Jobs in a failed batch are simply not yielded - so they are NOT recorded
-    and get retried next run (at-least-once)."""
-        budget = C.MAX_GEMINI_CALLS_PER_RUN
+    and get retried next run (at-least-once).
+
+    Stops early on two conditions, both of which protect the daily budget:
+    a 429 (quota gone - retrying cannot help), and the per-run call ceiling."""
+    budget = C.MAX_GEMINI_CALLS_PER_RUN
     for start in range(0, len(jobs), C.BATCH_SIZE):
         if budget <= 0:
             log.warning("hit the %d-call budget for this run; %d jobs deferred",
