@@ -62,7 +62,7 @@ function expand(tr, j) {
   tr.insertAdjacentHTML("afterend", `<tr class="detail"><td></td><td colspan="5">
     <p>${esc(j.why_it_fits)}</p>
     ${(j.tailored_bullets || []).length ? `<ul>${j.tailored_bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : ""}
-    <p class="meta">${j.open_roles_at_company} roles open at ${esc(j.company)} · found ${esc(j.found_on)}</p>
+        <p class="meta">${j.open_roles_at_company > 0 ? `${j.open_roles_at_company} roles open at ${esc(j.company)} · ` : ""}found ${esc(j.found_on)}</p>
   </td></tr>`);
 }
 
