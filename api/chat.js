@@ -86,7 +86,11 @@ export default handle(async req => {
   const msgs = Array.isArray(req.body?.messages) ? req.body.messages.slice(-12) : [];
   if (!msgs.length || msgs.at(-1).role !== "user") throw new HttpError(400, "Send at least one user message.");
   for (const m of msgs) {
-    if (typeof m.text !== "string" || m.text.length > 800) throw new HttpError(400, "Messages must be text under 800 characters.");
+    if (typeof m.text !== "string") m.text = "";
+    if (m.role === "user" && m.text.length > 800) {
+      throw new HttpError(400, "Messages must be text under 800 characters.");
+    }
+    if (m.role !== "user") m.text = m.text.slice(0, 800); // old bot replies can be long
   }
   const jobs = await loadJobs(req);
   if (!jobs.length) {
