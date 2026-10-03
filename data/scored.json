@@ -3171,6 +3171,30 @@
   "url": "https://www.adzuna.in/details/5909549551?utm_medium=api&utm_source=3b72f8a6",
   "why_it_fits": "Senior software engineering role requiring years of experience the candidate lacks."
  },
+ "https://www.adzuna.in/details/5910254997?utm_medium=api&utm_source=3b72f8a6": {
+  "company": "Deutsche Bank",
+  "duration": "full_time",
+  "found_on": "2026-10-03",
+  "last_seen_open": "2026-10-03",
+  "location": "Jaipur, Rajasthan",
+  "open_roles_at_company": 0,
+  "posted": "2026-10-03T21:50:15Z",
+  "salary": "not givenFlagged as empty string per instructions: \"\" or exactly as stated. Let's use \"\" since it says 'not given'. Wait, 'Known pay: not given' -> \"\". Let's use \"\". Same for duration: 'Known type: full_time' -> \"full_time\". Let's check the prompt: 'salary: pay EXACTLY as stated in the posting, else \"\". Never estimate.' and 'duration: employment type or length EXACTLY as stated, else \"\".' Let's use \"\" for salary and \"full_time\" for duration where applicable. Wait, the prompt says 'Known pay: not given' and 'Known type: full_time'. I will output \"\" for salary and \"full_time\" for duration if it matches the posting text. Let's check the description text for any other mentions. None. So salary is \"\" and duration is \"full_time\" (or \"\" if not explicitly in description, but 'Known type' is provided. I'll use \"full_time\"). Let's stick to \"\" for salary and \"full_time\" for duration where known type is full_time. Let's write the JSON carefully without any comments or control characters.",
+  "salary_max": null,
+  "salary_min": null,
+  "salary_predicted": false,
+  "score": 5,
+  "snippet": "Job Description: Job Title: Reference Data Analyst Corporate Title: Associate Location: Jaipur, India Role Description The Reference Data Analyst focuses on effective oversight of strategic data used across the bank\u2019s systems and infrastructure. The Reference Data Analyst supports various elements of the data lifecycle, from ensuring that data is captured from the best source, to validating and classifying, and operating controls that optimize its quality and maximize coverage. The Reference Da\u2026",
+  "source": "adzuna",
+  "tailored_bullets": [
+   "Consolidated three operational data sources into a single Power BI reporting layer.",
+   "Wrote SQL queries to automate KPI reporting, eliminating manual data processes.",
+   "Built an interactive analytics dashboard for India's Department of Post."
+  ],
+  "title": "Reference Data Analyst",
+  "url": "https://www.adzuna.in/details/5910254997?utm_medium=api&utm_source=3b72f8a6",
+  "why_it_fits": "Reference data operations role focused on data governance rather than quantitative analysis."
+ },
  "https://www.adzuna.in/land/ad/5896613632?se=puSbObK48RG-8ajic9h7mg&utm_medium=api&utm_source=3b72f8a6&v=110BC426C240E75E2D678D8C8324C7DDE0F2396A": {
   "company": "Ascendion",
   "duration": "full_time",
