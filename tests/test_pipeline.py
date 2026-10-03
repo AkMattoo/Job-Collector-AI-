@@ -30,7 +30,7 @@ def test_gemini_down_loses_nothing(workdir):
 
 def test_happy_path_publishes_only_good_scores(workdir):
     r = main.run("k", FakeSession([GOOD]), NOW)
-    assert r == {"fetched": 9, "kept": 4, "new": 4, "scored": 4, "published": 3}
+    assert r == {"fetched": 9, "kept": 4, "new": 4, "scored": 4, "published": 3, "notified": 0}
     pub = read("public/data/jobs.json")
     assert [j["company"] for j in pub["jobs"]] == ["Acme", "Ramp", "Acme"]
     top = pub["jobs"][0]
