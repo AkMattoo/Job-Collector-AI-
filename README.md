@@ -60,8 +60,8 @@ Every time the collector commits new data, Vercel redeploys automatically.
 ## Run it locally
 ```bash
 pip install -r requirements.txt -r requirements-dev.txt
-python -m pytest -q            # 12 tests, no network or key needed
-npm test                       # 4 tests for the chat agent and resume matcher
+python -m pytest -q            # 26 tests, no network or key needed
+npm test                       # 7 tests for the chat agent and resume matcher
 GEMINI_API_KEY=... python -m collector.main
 ```
 On Windows PowerShell: `$env:GEMINI_API_KEY="..."; python -m collector.main`
