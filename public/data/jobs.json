@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-05T20:57+00:00",
- "count": 152,
+ "updated": "2026-11-06T20:18+00:00",
+ "count": 153,
  "jobs": [
   {
    "company": "Experian",
    "duration": "",
    "found_on": "2026-10-31",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Mumbai, Maharashtra",
    "open_roles_at_company": 0,
    "posted": "2026-10-30T19:07:34Z",
@@ -25,7 +25,7 @@
    "title": "Risk Analyst \u2013 Data Science & Analytics",
    "url": "https://www.adzuna.in/details/5946960679?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent fit aligning candidate's quantitative risk modeling project with credit analytics.",
-   "days_live": 6,
+   "days_live": 7,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -34,7 +34,7 @@
    "company": "Experian",
    "duration": "",
    "found_on": "2026-10-31",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Mumbai, Maharashtra",
    "open_roles_at_company": 0,
    "posted": "2026-10-30T19:07:35Z",
@@ -53,7 +53,7 @@
    "title": "Risk Analyst \u2013 Data Science & Analytics",
    "url": "https://www.adzuna.in/details/5946960688?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect match for candidate who developed Monte Carlo credit risk simulation models.",
-   "days_live": 6,
+   "days_live": 7,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -62,7 +62,7 @@
    "company": "Northern Trust",
    "duration": "full_time",
    "found_on": "2026-10-28",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Bangalore, Karnataka",
    "open_roles_at_company": 0,
    "posted": "2026-10-28T21:26:26Z",
@@ -81,7 +81,35 @@
    "title": "Quantitative Engineer - Associate",
    "url": "https://www.adzuna.in/details/5944681436?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match combining quantitative engineering, financial modeling skills, and associate-level expectations.",
-   "days_live": 7,
+   "days_live": 8,
+   "freshness": "recent",
+   "still_open": true,
+   "pay_rank": 0
+  },
+  {
+   "score": 8,
+   "title": "Data Engineer I, SPIV Data Engineering",
+   "company": "Amazon",
+   "location": "India",
+   "duration": "full_time",
+   "salary": "_not given__",
+   "salary_min": null,
+   "salary_max": null,
+   "salary_predicted": false,
+   "source": "adzuna",
+   "posted": "2026-11-07T00:38:03Z",
+   "open_roles_at_company": 0,
+   "why_it_fits": "Good fit for an entry-level data engineering role requiring Python and SQL skills.",
+   "tailored_bullets": [
+    "Consolidated three operational data sources into a unified Power BI layer and automated SQL reporting at HPE.",
+    "Built automated data pipelines and interactive Streamlit analytics dashboards consuming real-time API services.",
+    "Developed scalable backend services in Rust and Python for real-time data streaming and processing."
+   ],
+   "snippet": "Selling Partner Identity Verification is working to identify and prevent fraudulent behavior through all stages of a seller's lifecycle. We are seeking a skilled Data Engineer to join our team and help us build and manage the Data for the business domains within the Selling Partner Identity Verification space. As a Data Engineer, you will play a crucial role in designing, implementing, and maintaining our data infrastructure and pipelines. You will work closely with cross-functional teams to de\u2026",
+   "url": "https://www.adzuna.in/details/5955888486?utm_medium=api&utm_source=3b72f8a6",
+   "found_on": "2026-11-06",
+   "last_seen_open": "2026-11-06",
+   "days_live": 0,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -90,7 +118,7 @@
    "company": "Amazon",
    "duration": "full_time",
    "found_on": "2026-11-02",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Hyderabad, Telangana",
    "open_roles_at_company": 0,
    "posted": "2026-11-02T17:18:34Z",
@@ -109,7 +137,7 @@
    "title": "Financial Analyst I (Business Analyst)",
    "url": "https://www.adzuna.in/details/5950495904?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for quantitative finance background, SQL data analysis, and entry-level scope.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -118,7 +146,7 @@
    "company": "Solstice Advanced Materials",
    "duration": "full_time",
    "found_on": "2026-10-31",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Pune, Maharashtra",
    "open_roles_at_company": 0,
    "posted": "2026-10-31T21:32:28Z",
@@ -137,7 +165,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5948209701?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for entry-level data analytics using SQL, Python, and dashboarding.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -146,7 +174,7 @@
    "company": "Syngenta Group",
    "duration": "",
    "found_on": "2026-10-26",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Pune, Maharashtra",
    "open_roles_at_company": 0,
    "posted": "2026-10-26T23:03:20Z",
@@ -165,7 +193,7 @@
    "title": "Finance Data Analyst",
    "url": "https://www.adzuna.in/details/5942383537?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for data analyst role using SQL and Power BI financial reporting experience.",
-   "days_live": 9,
+   "days_live": 10,
    "freshness": "recent",
    "still_open": true,
    "pay_rank": 0
@@ -173,54 +201,26 @@
   {
    "company": "Trigent Software Private Limited",
    "duration": "",
-   "found_on": "2026-11-02",
-   "last_seen_open": "2026-11-05",
-   "location": "Richmond Town, Bangalore",
-   "open_roles_at_company": 0,
-   "posted": "2026-11-03T00:06:09Z",
-   "salary": "INR 100,000 - 2,400,000/yr",
-   "salary_max": 2400000,
-   "salary_min": 100000,
-   "salary_predicted": false,
-   "score": 7,
-   "snippet": "Key Responsibilities Design and implement scalable ETL/ELT pipelines. Develop data ingestion frameworks for multiple source systems. Build and optimize Spark-based data processing workflows. Develop batch and near real-time data integration solutions. Support data orchestration and transformation activities. Optimize performance of Databricks jobs and data pipelines. Ensure data quality, lineage, and operational reliability. Support CI/CD and DevOps practices for data solutions. Collaborate wit\u2026",
-   "source": "adzuna",
-   "tailored_bullets": [
-    "Consolidated three operational data sources into a unified Power BI reporting layer at HPE.",
-    "Automated manual KPI reporting workflows using optimized SQL queries and data pipeline scripts.",
-    "Engineered a credit risk simulation service with FastAPI, executing 100,000-path Monte Carlo analyses."
-   ],
-   "title": "Data Engineer",
-   "url": "https://www.adzuna.in/details/5950861733?utm_medium=api&utm_source=3b72f8a6",
-   "why_it_fits": "Relevant data engineering role matching SQL and data pipeline skills for entry-level applicants.",
-   "days_live": 2,
-   "freshness": "fresh",
-   "still_open": true,
-   "pay_rank": 2
-  },
-  {
-   "score": 7,
-   "title": "Data Analyst || Hyderabad & Pune & Bnglr || Hybrid",
-   "company": "Trigent Software Private Limited",
+   "found_on": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Cahmrajendrapet, Bangalore",
-   "duration": "",
-   "salary": "INR 1,200,000 - 1,800,000/yr Poly fill line text missing replace with standard formatting if needed string match exactly: INR 1,200,000 - 1,800,000/yr check actual text: INR 1,200,000 - 1,800,000/yr -> exact: INR 1,200,000 - 1,800,000/yr cut exact string: INR 1,200,000 - 1,800,000/yr balance ok balance string check: INR 1,200,000 - 1,800,000/yr correctly matches known pay in input: INR 1,200,000 - 1,800,000/yr correct syntax: INR 1,200,000 - 1,800,000/yr match string: INR 1,200,000 - 1,800,000/yr matching exact string: INR 1,200,000 - 1,800,000/yr.",
-   "salary_min": 1200000,
-   "salary_max": 1800000,
-   "salary_predicted": false,
-   "source": "adzuna",
-   "posted": "2026-11-06T00:26:47Z",
    "open_roles_at_company": 0,
-   "why_it_fits": "Requires strong SQL and analytical skills in banking, aligning well with your background.",
+   "posted": "2026-11-06T00:26:47Z",
+   "salary": "INR 1,200,000 - 1,800,000/yr Poly fill line text missing replace with standard formatting if needed string match exactly: INR 1,200,000 - 1,800,000/yr check actual text: INR 1,200,000 - 1,800,000/yr -> exact: INR 1,200,000 - 1,800,000/yr cut exact string: INR 1,200,000 - 1,800,000/yr balance ok balance string check: INR 1,200,000 - 1,800,000/yr correctly matches known pay in input: INR 1,200,000 - 1,800,000/yr correct syntax: INR 1,200,000 - 1,800,000/yr match string: INR 1,200,000 - 1,800,000/yr matching exact string: INR 1,200,000 - 1,800,000/yr.",
+   "salary_max": 1800000,
+   "salary_min": 1200000,
+   "salary_predicted": false,
+   "score": 7,
+   "snippet": "Seeking 2 highly analytical and business-focused Data Analysts with strong SQL expertise and a solid understanding of banking operations, particularly within the Collateral Management domain. The ideal candidate will be able to bridge the gap between business stakeholders and technical teams by translating business requirements into data-driven insights and analytical solutions and support Suncorp Migartion. Key Responsibilities :: Engage with business stakeholders to understand requirements an\u2026",
+   "source": "adzuna",
    "tailored_bullets": [
     "Consolidated three operational data sources into a single Power BI layer using SQL at HPE.",
     "Engineered credit risk simulator API using FastAPI, Streamlit, and Markov chains for expected credit loss.",
     "Executed walk-forward pairs trading backtests on Nifty 50 equities with a complete cost model."
    ],
-   "snippet": "Seeking 2 highly analytical and business-focused Data Analysts with strong SQL expertise and a solid understanding of banking operations, particularly within the Collateral Management domain. The ideal candidate will be able to bridge the gap between business stakeholders and technical teams by translating business requirements into data-driven insights and analytical solutions and support Suncorp Migartion. Key Responsibilities :: Engage with business stakeholders to understand requirements an\u2026",
+   "title": "Data Analyst || Hyderabad & Pune & Bnglr || Hybrid",
    "url": "https://www.adzuna.in/details/5954643825?utm_medium=api&utm_source=3b72f8a6",
-   "found_on": "2026-11-05",
-   "last_seen_open": "2026-11-05",
+   "why_it_fits": "Requires strong SQL and analytical skills in banking, aligning well with your background.",
    "days_live": 0,
    "freshness": "fresh",
    "still_open": true,
@@ -230,7 +230,7 @@
    "company": "Proof of Skill",
    "duration": "permanent",
    "found_on": "2026-11-02",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Aperl, Hyderabad",
    "open_roles_at_company": 0,
    "posted": "2026-11-02T21:52:15Z",
@@ -249,7 +249,7 @@
    "title": "Consultant - Business Analytics",
    "url": "https://www.adzuna.in/details/5950769023?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for analytics and data consulting skills without explicit high experience requirements.",
-   "days_live": 2,
+   "days_live": 3,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -258,7 +258,7 @@
    "company": "EisnerAmper",
    "duration": "full_time",
    "found_on": "2026-10-31",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Mumbai, Maharashtra",
    "open_roles_at_company": 0,
    "posted": "2026-10-31T21:31:38Z",
@@ -277,7 +277,7 @@
    "title": "Developer \u2013 Data analytics and engineer",
    "url": "https://www.adzuna.in/details/5948207092?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good alignment with candidate's internship experience building Power BI and SQL reporting.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -286,7 +286,7 @@
    "company": "UnitedHealth Group",
    "duration": "",
    "found_on": "2026-11-02",
-   "last_seen_open": "2026-11-05",
+   "last_seen_open": "2026-11-06",
    "location": "Hyderabad, Telangana",
    "open_roles_at_company": 0,
    "posted": "2026-11-01T11:48:53Z",
@@ -305,7 +305,7 @@
    "title": "AI/ML Engineer",
    "url": "https://www.adzuna.in/details/5948741641?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Fits candidate quantitative background and Python scientific modeling skill set well.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": true,
    "pay_rank": 0
@@ -333,7 +333,7 @@
    "title": "Technical Data Analyst Intern",
    "url": "https://www.adzuna.in/details/5948187166?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Ideal student internship position matching candidate's data analytics background and degree.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -361,7 +361,7 @@
    "title": "Scorecard Developer (Machine Learning Specialist) - Bengaluru",
    "url": "https://www.adzuna.in/details/5947929655?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Outstanding match directly matching candidate's credit risk simulation and PD calibration work.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -389,7 +389,7 @@
    "title": "Risk Analyst \u2013 Data Science & Analytics",
    "url": "https://www.adzuna.in/details/5946960674?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Direct alignment with candidate's credit risk simulator and expected credit loss experience.",
-   "days_live": 6,
+   "days_live": 7,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -417,7 +417,7 @@
    "title": "Intern (Bach) Data Engineering",
    "url": "https://www.adzuna.in/details/5943580134?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect fit for a current ECE student looking for a data engineering internship.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -445,7 +445,7 @@
    "title": "Data Analytics Intern",
    "url": "https://www.adzuna.in/details/5911676632?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect match for an internship role aligning with candidate's data analytics experience.",
-   "days_live": 31,
+   "days_live": 32,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -473,7 +473,7 @@
    "title": "Finance Transformation Data Scientist",
    "url": "https://www.adzuna.in/details/5908361337?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect match with previous HPE internship and quantitative finance background.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -501,7 +501,7 @@
    "title": "AM Public-Bengaluru-Associate-Software Engineering",
    "url": "https://www.adzuna.in/details/5949476273?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Exceptional fit combining financial services domain, quantitative skills, and software engineering capabilities.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -529,7 +529,7 @@
    "title": "Associate Data Engineer",
    "url": "https://www.adzuna.in/details/5949508909?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Fits early-career data engineering role with SQL and Power BI skills.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -557,7 +557,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5948181051?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match combining ECE background with data engineering for R&D analytics.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -585,7 +585,7 @@
    "title": "Associate, Data Scientist",
    "url": "https://www.adzuna.in/details/5943561950?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Exceptional fit matching candidate's Python, NumPy, pandas, and time-series data analysis capabilities.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -613,7 +613,7 @@
    "title": "Associate - Analytics Data Engineer",
    "url": "https://www.adzuna.in/details/5943577882?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Ideal match for associate analytics data engineering using SQL, Python, and financial data modeling.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -641,7 +641,7 @@
    "title": "Graduate Trainee, Customer Experience Operations, Data and Systems Analytics",
    "url": "https://www.adzuna.in/details/5943586439?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Outstanding fit for a new graduate looking for a data and systems analytics role.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -669,7 +669,7 @@
    "title": "Financial Data Analyst",
    "url": "https://www.adzuna.in/land/ad/5944378953?se=EPEqIQXT8RGpb5ATKhfplw&utm_medium=api&utm_source=3b72f8a6&v=C62D138FBF2879872ED010FDCF8CEDCB957B8C6A",
    "why_it_fits": "Excellent fit aligning quantitative finance knowledge, financial modeling, and data analytics skills.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -697,7 +697,7 @@
    "title": "Analyst, Data Science and Analytics",
    "url": "https://www.adzuna.in/details/5932380508?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent fit for entry-level analytics combining financial services focus and quantitative modeling skills.",
-   "days_live": 18,
+   "days_live": 19,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -725,7 +725,7 @@
    "title": "DATA SCIENTIST I",
    "url": "https://www.adzuna.in/land/ad/5931624203?se=zNuuhkvK8RGq65mh8wCbFA&utm_medium=api&utm_source=3b72f8a6&v=6A2F4F467E628AF6DCE612C880B0D143B0698A85",
    "why_it_fits": "Ideal entry-level data scientist role matching candidate's Python, SQL, and statistical modeling skills.",
-   "days_live": 19,
+   "days_live": 20,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -753,7 +753,7 @@
    "title": "Analytics Engineer I, Commercialization",
    "url": "https://www.adzuna.in/details/5922408454?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level analytics engineer position perfectly aligned with candidate's analytical skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -781,7 +781,7 @@
    "title": "Product Development Data Analyst and Client Reporting, Officer",
    "url": "https://www.adzuna.in/details/5922416981?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Financial reporting analyst role strongly aligned with quantitative and data engineering skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -809,7 +809,7 @@
    "title": "Data Engineer 1",
    "url": "https://www.adzuna.in/details/5922417202?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data engineer role perfectly suited for a graduating student with strong SQL.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -837,7 +837,7 @@
    "title": "Software Development Engineer I",
    "url": "https://www.adzuna.in/details/5911670302?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "SDE I role in cyber risk quantification perfectly matches candidate's risk simulation projects.",
-   "days_live": 31,
+   "days_live": 32,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -865,7 +865,7 @@
    "title": "Analyst-Data Analytics",
    "url": "https://www.adzuna.in/details/5910231937?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for entry-level data analytics in a major financial services firm.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -893,7 +893,7 @@
    "title": "Data Engineer, Specialist (PITech- Core - Middle Office Team 1)",
    "url": "https://www.adzuna.in/details/5910235366?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect alignment with candidate's quantitative finance projects and data engineering skills.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -921,7 +921,7 @@
    "title": "Data Analyst \u2013 Analytics Engineering & AI",
    "url": "https://www.adzuna.in/details/5910245751?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for data analytics and engineering with strong Python, SQL, and Power BI skills.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -949,7 +949,7 @@
    "title": "Data Analyst \u2013 Analytics Engineering & AI",
    "url": "https://www.adzuna.in/details/5910566912?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for data analytics and engineering with strong Python, SQL, and Power BI skills.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -977,7 +977,7 @@
    "title": "Data Analyst - Analytics Engineering & AI",
    "url": "https://www.adzuna.in/details/5911188255?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for data analytics and engineering with strong Python, SQL, and Power BI skills.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1005,7 +1005,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5905899192?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for a data analyst role leveraging Power BI and SQL skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1033,7 +1033,7 @@
    "title": "Big Data Engineer - Python and Spark",
    "url": "https://www.adzuna.in/details/5907461510?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Trainee-level engineering role at a financial institution, perfect for candidate's Python skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1061,7 +1061,7 @@
    "title": "Business Analytics Analyst",
    "url": "https://www.adzuna.in/details/5907461639?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent entry-level trainee role matching data analytics skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1089,7 +1089,7 @@
    "title": "Business Analytics Analyst",
    "url": "https://www.adzuna.in/details/5907461698?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent entry-level trainee role matching data analytics skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1117,7 +1117,7 @@
    "title": "Machine Learning Engineer - Python and SQL",
    "url": "https://www.adzuna.in/details/5907461706?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level machine learning role in finance, matching candidate's quant and Python skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1145,7 +1145,7 @@
    "title": "L08 Business Leadership Program - Data Analytics",
    "url": "https://www.adzuna.in/details/5907469993?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent rotational leadership program for entry-level data analysts.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1173,7 +1173,7 @@
    "title": "Data Analyst I",
    "url": "https://www.adzuna.in/details/5904964009?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect entry-level data analyst role matching the candidate's Power BI and SQL experience.",
-   "days_live": 35,
+   "days_live": 36,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1201,7 +1201,7 @@
    "title": "Risk Analyst \u2013 Data Science & Analytics",
    "url": "https://www.adzuna.in/details/5905434332?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Outstanding match combining risk analysis with the candidate's credit risk simulation project.",
-   "days_live": 35,
+   "days_live": 36,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1229,7 +1229,7 @@
    "title": "Associate Data Engineer",
    "url": "https://www.adzuna.in/details/5897783820?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Perfect match for an early-career role requiring strong Python, SQL, and data pipelines.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1257,7 +1257,7 @@
    "title": "Analyst, Data Analytics",
    "url": "https://www.adzuna.in/details/5896367974?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Ideal entry-level data analytics role matching candidate's internship experience and dashboard skills.",
-   "days_live": 42,
+   "days_live": 43,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -1281,7 +1281,7 @@
    "title": "Data Scientist, Growth",
    "url": "https://jobs.ashbyhq.com/notion/9fc52821-c394-4a80-85ba-5f1d7c36fb2b",
    "why_it_fits": "Ideal match for data science skills, experimentation background, and B2B SaaS experience.",
-   "days_live": 72,
+   "days_live": 73,
    "freshness": "stale",
    "still_open": false,
    "pay_rank": 0
@@ -1309,7 +1309,7 @@
    "title": "Workforce Management Data Analyst",
    "url": "https://www.adzuna.in/details/5922420003?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data analyst role in India suitable for early career candidates.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 1
@@ -1337,7 +1337,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5949463235?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for candidate background in SQL, Power BI reporting, and data analytics.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1365,7 +1365,7 @@
    "title": "Associate Data Scientist - Value and Access Strategy",
    "url": "https://www.adzuna.in/details/5949470281?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent fit for entry-level data scientist role utilizing candidate statistical computing skills.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1393,7 +1393,7 @@
    "title": "US Value & Access Insights - Associate Data Scientist",
    "url": "https://www.adzuna.in/details/5949471595?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong alignment with candidate quantitative focus, statistical modeling, and data science goals.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1421,7 +1421,7 @@
    "title": "Data Scientist (Fraud)",
    "url": "https://www.adzuna.in/details/5949483639?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Directly matches candidate quantitative finance background, statistical modeling, and data science goals.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1449,7 +1449,7 @@
    "title": "Associate Data Scientist - Value & Access Strategy",
    "url": "https://www.adzuna.in/details/5949486731?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for entry-level data scientist target with quantitative and statistical skills.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1477,7 +1477,7 @@
    "title": "Grants Payments Data Analyst",
    "url": "https://www.adzuna.in/details/5949507785?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for Data Analyst role utilizing candidate SQL and automated reporting skills.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1505,7 +1505,7 @@
    "title": "Associate Data Scientist - Value & Access Strategy",
    "url": "https://www.adzuna.in/details/5950495505?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent fit for entry-level data scientist with strong quantitative and statistical background.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1533,7 +1533,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5950495922?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong technical match for candidate core skills in Python, SQL, and data pipelines.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1561,7 +1561,7 @@
    "title": "Data Scientist - Intermediate",
    "url": "https://www.adzuna.in/details/5948206057?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong fit combining credit bureau domain with candidate's quantitative credit risk modeling.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1589,7 +1589,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5948740264?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for software engineering and data science intersection at entry level.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1617,7 +1617,7 @@
    "title": "Sustainable Investment/ESG Data Analyst",
    "url": "https://www.adzuna.in/details/5947118414?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for financial market data domain and entry-level data analyst skill set.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1645,7 +1645,7 @@
    "title": "Data Analyst - NMFC",
    "url": "https://www.adzuna.in/details/5947249662?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Direct match for Power BI visualization and data analysis background from HPE internship.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1673,7 +1673,7 @@
    "title": "Software Engineer - Simulation (Universal Robots, Bangalore - India)",
    "url": "https://www.adzuna.in/details/5947751654?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit combining candidate's ECE hardware background with Rust and simulation experience.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -1701,8 +1701,8 @@
    "title": "Analytics Engineer I, Commercialization",
    "url": "https://www.adzuna.in/details/5944678851?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for entry-level analytics engineer combining Python data modeling and SQL pipeline capabilities.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1729,8 +1729,8 @@
    "title": "Associate Data Engineer",
    "url": "https://www.adzuna.in/details/5944680630?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent fit for an associate data engineer with strong Python, Rust, and SQL background.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1757,8 +1757,8 @@
    "title": "Associate Data Analyst - CSA",
    "url": "https://www.adzuna.in/details/5944716431?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for associate data analyst role focused on data pipelines and Power BI.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1785,8 +1785,8 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5944719553?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for financial data analysis leveraging quantitative background, Python, and SQL skills.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1813,8 +1813,8 @@
    "title": "Associate Data Analyst - CSA",
    "url": "https://www.adzuna.in/details/5944719573?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for associate data analyst role focused on data pipelines and Power BI.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1841,8 +1841,8 @@
    "title": "Associate Specialist, Data Analytics",
    "url": "https://www.adzuna.in/details/5944721087?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data analytics role at a major financial institution matching candidate skills.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -1869,7 +1869,7 @@
    "title": "Software Engineering Associate - Snowflake",
    "url": "https://www.adzuna.in/details/5943584096?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for associate role combining financial markets domain interest and software skills.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -1897,7 +1897,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5943357196?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for candidate's Python, SQL, statistical analysis, and dashboarding background.",
-   "days_live": 9,
+   "days_live": 10,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -1925,7 +1925,7 @@
    "title": "Associate, Data Engineer Workplace Data & Insights",
    "url": "https://www.adzuna.in/details/5932404737?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong fit for an early-career data engineer at a top financial firm.",
-   "days_live": 18,
+   "days_live": 19,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -1953,7 +1953,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5931144372?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for generalist data analyst skilled in Python, SQL, and Power BI dashboards.",
-   "days_live": 19,
+   "days_live": 20,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -1981,7 +1981,7 @@
    "title": "Data Analyst \u2013 Financial Services Domain",
    "url": "https://www.adzuna.in/details/5931482054?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great match for SQL data analysis and quantitative modeling in financial domain.",
-   "days_live": 19,
+   "days_live": 20,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -2009,7 +2009,7 @@
    "title": "Data Analyst, Risk",
    "url": "https://www.adzuna.in/details/5922367427?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Risk data analyst position matching candidate's risk modeling and SQL skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2037,7 +2037,7 @@
    "title": "Data Analyst - 2",
    "url": "https://www.adzuna.in/details/5922383060?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "FinTech data analyst role matching candidate's quantitative SQL and Python skill set.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2065,7 +2065,7 @@
    "title": "Analyst - Data Scientist",
    "url": "https://www.adzuna.in/details/5922405137?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level analyst data scientist role matching candidate's quantitative and modeling skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2093,7 +2093,7 @@
    "title": "Data Engineer (L09)",
    "url": "https://www.adzuna.in/details/5922409007?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Financial services data engineering role fitting candidate's quantitative and data pipeline skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2121,7 +2121,7 @@
    "title": "IND Business Data Analyst",
    "url": "https://www.adzuna.in/details/5922410820?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Business data analyst position matching candidate's SQL and reporting experience.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2149,7 +2149,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5922414015?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Banking data engineering position well aligned with candidate's quantitative background and SQL capabilities.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2177,7 +2177,7 @@
    "title": "Analyst - Data Engineer",
    "url": "https://www.adzuna.in/details/5922415833?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Analyst-level data engineering role suitable for early career candidates with strong SQL.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2205,7 +2205,7 @@
    "title": "Data Analyst - Business",
    "url": "https://www.adzuna.in/details/5922417241?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great fit for an entry-level analyst with 1-2 years experience requirement.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2233,7 +2233,7 @@
    "title": "Analytics Engineer",
    "url": "https://www.adzuna.in/details/5921003612?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Analytics engineering position well aligned with candidate's Python SQL and modeling capabilities.",
-   "days_live": 26,
+   "days_live": 27,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2261,7 +2261,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5919356989?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data analyst role in India matching candidate's Power BI and SQL skills.",
-   "days_live": 27,
+   "days_live": 28,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2289,7 +2289,7 @@
    "title": "Data Engineer, People Analytics",
    "url": "https://www.adzuna.in/details/5911647997?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for data engineering with Python, SQL, and dashboarding experience.",
-   "days_live": 31,
+   "days_live": 32,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2317,7 +2317,7 @@
    "title": "Data Analyst/Developer (VBA, Power Query, Power BI, Python)",
    "url": "https://www.adzuna.in/details/5910244745?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong fit for Power BI and Python analytics, though VBA is less relevant.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2345,7 +2345,7 @@
    "title": "Software Engineer - Data Platform",
    "url": "https://www.adzuna.in/details/5911187305?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for data platform engineering with strong Python, SQL, and Rust skills.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2373,7 +2373,7 @@
    "title": "Data Analyst/Developer (VBA, Power Query, Power BI, Python)",
    "url": "https://www.adzuna.in/details/5911187891?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong fit for Power BI and Python analytics, though VBA is less relevant.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2401,7 +2401,7 @@
    "title": "Associate - Data Scientist",
    "url": "https://www.adzuna.in/details/5911188286?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level data science role matching candidate's strong quantitative and statistical background.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2429,7 +2429,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5908375562?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role matching candidate's core Python and SQL capabilities.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2457,7 +2457,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5908393012?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Financial services data analyst role matching candidate's banking projects and analytics background.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2485,7 +2485,7 @@
    "title": "Analyst - Data Engineering 5A",
    "url": "https://www.adzuna.in/details/5908394709?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data engineering role matching candidate's Python, SQL, and pipeline skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2513,7 +2513,7 @@
    "title": "Data Scientist I - Supply chain Analytics",
    "url": "https://www.adzuna.in/details/5908396656?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data science role matching candidate's strong Python, NumPy, and SciPy skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2541,7 +2541,7 @@
    "title": "Data Analyst | Offshore",
    "url": "https://www.adzuna.in/details/5908397833?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Standard data analyst role matching candidate's SQL, Python, and dashboarding experience.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2569,7 +2569,7 @@
    "title": "Data Scientist",
    "url": "https://www.adzuna.in/details/5908400012?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great match for FastAPI, Python, and real-time backend development.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2597,7 +2597,7 @@
    "title": "Cloud Data Engineer",
    "url": "https://www.adzuna.in/details/5908407943?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Finance-focused engineering role that aligns perfectly with candidate's quantitative finance projects.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2625,7 +2625,7 @@
    "title": "Data Analytics Engineer",
    "url": "https://www.adzuna.in/details/5908409061?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent match for data analytics engineering with SQL and Power BI.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2653,7 +2653,7 @@
    "title": "Data Analyst-I",
    "url": "https://www.adzuna.in/details/5909254450?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data analyst role well-suited for candidate's SQL and dashboarding skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2681,7 +2681,7 @@
    "title": "Business Intelligence Analyst",
    "url": "https://www.adzuna.in/details/5907460106?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great match for business intelligence and data visualization skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2709,7 +2709,7 @@
    "title": "Software Engineer (Python & Cloud/Data Platform)",
    "url": "https://www.adzuna.in/details/5907469690?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Python and data platform engineering role matching candidate's backend and data skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2737,7 +2737,7 @@
    "title": "Business Intelligence Engineer, eCS Data Engineering and Analytics",
    "url": "https://www.adzuna.in/details/5907900766?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Great match for business intelligence engineering with SQL and Power BI.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2765,7 +2765,7 @@
    "title": "Investment Analytics Executive",
    "url": "https://www.adzuna.in/details/5897024322?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Excellent alignment with candidate's quantitative finance projects and data analytics background.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2793,7 +2793,7 @@
    "title": "Assct Spclst, Data Analytics",
    "url": "https://www.adzuna.in/details/5897047674?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level data analytics role in financial services fits candidate's profile and finance background.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -2821,10 +2821,38 @@
    "title": "Data Analyst/Business Analyst",
    "url": "https://www.adzuna.in/details/5897957723?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for data analyst role focusing on data modeling, automation, and reporting.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
+  },
+  {
+   "company": "Trigent Software Private Limited",
+   "duration": "",
+   "found_on": "2026-11-02",
+   "last_seen_open": "2026-11-05",
+   "location": "Richmond Town, Bangalore",
+   "open_roles_at_company": 0,
+   "posted": "2026-11-03T00:06:09Z",
+   "salary": "INR 100,000 - 2,400,000/yr",
+   "salary_max": 2400000,
+   "salary_min": 100000,
+   "salary_predicted": false,
+   "score": 7,
+   "snippet": "Key Responsibilities Design and implement scalable ETL/ELT pipelines. Develop data ingestion frameworks for multiple source systems. Build and optimize Spark-based data processing workflows. Develop batch and near real-time data integration solutions. Support data orchestration and transformation activities. Optimize performance of Databricks jobs and data pipelines. Ensure data quality, lineage, and operational reliability. Support CI/CD and DevOps practices for data solutions. Collaborate wit\u2026",
+   "source": "adzuna",
+   "tailored_bullets": [
+    "Consolidated three operational data sources into a unified Power BI reporting layer at HPE.",
+    "Automated manual KPI reporting workflows using optimized SQL queries and data pipeline scripts.",
+    "Engineered a credit risk simulation service with FastAPI, executing 100,000-path Monte Carlo analyses."
+   ],
+   "title": "Data Engineer",
+   "url": "https://www.adzuna.in/details/5950861733?utm_medium=api&utm_source=3b72f8a6",
+   "why_it_fits": "Relevant data engineering role matching SQL and data pipeline skills for entry-level applicants.",
+   "days_live": 3,
+   "freshness": "fresh",
+   "still_open": false,
+   "pay_rank": 2
   },
   {
    "company": "ALTRAIZE",
@@ -2849,7 +2877,7 @@
    "title": "Data Analyst \u2013 Manufacturing",
    "url": "https://www.adzuna.in/details/5931461447?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for entry-level data analyst position using Python and SQL data processing.",
-   "days_live": 19,
+   "days_live": 20,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 1
@@ -2877,7 +2905,7 @@
    "title": "Business Intelligence & Reporting Consultant",
    "url": "https://www.adzuna.in/details/5905893659?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for BI and reporting skills, though focused on higher education consulting.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 1
@@ -2905,7 +2933,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5950724382?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "General software engineer role matching candidate Python, Rust, and backend API engineering background.",
-   "days_live": 2,
+   "days_live": 3,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -2933,7 +2961,7 @@
    "title": "[India] - Cloud Data Engineer",
    "url": "https://www.adzuna.in/details/5950758530?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Fits candidate data engineering interest and analytics skill set well for early-career levels.",
-   "days_live": 2,
+   "days_live": 3,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -2961,7 +2989,7 @@
    "title": "Software Development Engineer, Alexa Connections",
    "url": "https://www.adzuna.in/details/5950520596?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Suitable software engineering role aligning with candidate programming and backend API experience.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -2989,7 +3017,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5950553819?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level SDE position matching candidate background in Python backend engineering.",
-   "days_live": 3,
+   "days_live": 4,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3017,7 +3045,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5948207928?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Solid match for candidate's SQL and Python data pipeline development experience.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3045,7 +3073,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5948740187?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Well-aligned with candidate data engineering skills in SQL, Python, and pipeline automation.",
-   "days_live": 4,
+   "days_live": 5,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3073,7 +3101,7 @@
    "title": "Software Engineer - Data Engineering",
    "url": "https://www.adzuna.in/details/5947081624?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Combines software engineering and data pipelines, fitting candidate's ECE and Python skills.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3101,7 +3129,7 @@
    "title": "2027INE - Bangalore Career Fair-F2F (21st & 22nd Nov) Data Engineer",
    "url": "https://www.adzuna.in/details/5947450369?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Hiring event position suited for fresh graduates with data pipeline and coding knowledge.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3129,7 +3157,7 @@
    "title": "Data Scientist/Machine Learning Consultant",
    "url": "https://www.adzuna.in/details/5947506621?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Quantitative analytics role suited for candidate's strong math and statistical modeling skills.",
-   "days_live": 5,
+   "days_live": 6,
    "freshness": "fresh",
    "still_open": false,
    "pay_rank": 0
@@ -3157,8 +3185,8 @@
    "title": "Advanced Analytics Developer",
    "url": "https://www.adzuna.in/details/5944720301?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for data analytics developer leveraging Python, SQL, and Power BI expertise.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -3185,8 +3213,8 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5944720989?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Solid fit for entry-level data engineering, leveraging SQL and Python pipeline skills.",
-   "days_live": 7,
-   "freshness": "fresh",
+   "days_live": 8,
+   "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
   },
@@ -3213,7 +3241,7 @@
    "title": "Software Engineer II - Databricks, Python, Pyspark, AWS",
    "url": "https://www.adzuna.in/details/5943579413?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong fit for financial technology software engineering using Python, SQL, and data processing.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3241,7 +3269,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5943587241?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Solid alignment with candidate's data engineering, SQL pipeline, and Python automation skills.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3269,7 +3297,7 @@
    "title": "Data Analyst",
    "url": "https://www.adzuna.in/details/5944177116?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for entry-level data analyst proficient in SQL, Python, and Power BI dashboards.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3297,7 +3325,7 @@
    "title": "Data Scientist",
    "url": "https://www.adzuna.in/details/5944407207?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for data scientist role matching sensor data analytics and IoT experience.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3325,7 +3353,7 @@
    "title": "Data Engineer - AI/ML Products, AOP (Analytics Operations and Programs)",
    "url": "https://www.adzuna.in/details/5944448565?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for data engineering role supporting AI/ML products and quantitative analytics.",
-   "days_live": 8,
+   "days_live": 9,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3353,7 +3381,7 @@
    "title": "Data Scientist",
    "url": "https://www.adzuna.in/details/5943357191?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Solid match for candidate's statistical modeling, Python data science, and analytical background.",
-   "days_live": 9,
+   "days_live": 10,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3381,7 +3409,7 @@
    "title": "Software Development Engineer, Returns and Recommerce",
    "url": "https://www.adzuna.in/details/5932390958?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Candidate's strong CS foundation, Rust, and Python skills fit SDE hiring profiles.",
-   "days_live": 18,
+   "days_live": 19,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3409,7 +3437,7 @@
    "title": "Data Scientist",
    "url": "https://www.adzuna.in/details/5932407500?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Fits candidate's Python machine learning, statistical modeling, and data analysis background.",
-   "days_live": 18,
+   "days_live": 19,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3437,7 +3465,7 @@
    "title": "Data Engineer - Cloud Consumption",
    "url": "https://www.adzuna.in/details/5932417677?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong alignment with financial domain data work and Python analytical programming background.",
-   "days_live": 18,
+   "days_live": 19,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3465,7 +3493,7 @@
    "title": "Software Engineer - Data Platform",
    "url": "https://www.adzuna.in/details/5931775028?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for data platform software engineering using Python, SQL, and Rust skills.",
-   "days_live": 19,
+   "days_live": 20,
    "freshness": "recent",
    "still_open": false,
    "pay_rank": 0
@@ -3493,7 +3521,7 @@
    "title": "Data and Analytics Engineer, Enablement",
    "url": "https://www.adzuna.in/details/5922386199?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data and analytics engineering role fitting candidate's Power BI and SQL skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3521,7 +3549,7 @@
    "title": "Business Intelligence Engineer, AOP",
    "url": "https://www.adzuna.in/details/5922391699?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Business intelligence engineering role suitable for candidate's SQL and reporting background.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3549,7 +3577,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5922410054?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role well aligned with candidate's data pipeline and SQL capabilities.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3577,7 +3605,7 @@
    "title": "Analytics Specialist",
    "url": "https://www.adzuna.in/details/5922410517?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "General analytics position suitable for candidate's Python SQL and Power BI expertise.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3605,7 +3633,7 @@
    "title": "DE&A - Data Engineer",
    "url": "https://www.adzuna.in/details/5922413612?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role matching candidate's SQL and pipeline development skillset.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3633,7 +3661,7 @@
    "title": "Data Engineer \u2013 Experienced Associate",
    "url": "https://www.adzuna.in/details/5922417640?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering position matching candidate's SQL Python and data pipeline skills.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3661,7 +3689,7 @@
    "title": "Data Analytics Engineer",
    "url": "https://www.adzuna.in/details/5922418341?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data analytics engineering role suitable for candidate's SQL and pipeline skill set.",
-   "days_live": 25,
+   "days_live": 26,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3689,7 +3717,7 @@
    "title": "Data Analyst (Lokal Jobs)",
    "url": "https://www.adzuna.in/details/5921982354?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Onsite data analyst role suitable for candidate's SQL and business analytics capabilities.",
-   "days_live": 26,
+   "days_live": 27,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3717,7 +3745,7 @@
    "title": "BI - Data Scientist",
    "url": "https://www.adzuna.in/details/5911673488?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good data science role, but requires specific Databricks and enterprise ML experience.",
-   "days_live": 31,
+   "days_live": 32,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3745,7 +3773,7 @@
    "title": "Data Engineer - IT",
    "url": "https://www.adzuna.in/details/5911684134?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good data engineering role, but requires PySpark and Databricks experience.",
-   "days_live": 31,
+   "days_live": 32,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3773,7 +3801,7 @@
    "title": "Data Scientist, Machine Learning",
    "url": "https://www.adzuna.in/details/5910218521?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for data science, but pharma domain focus is less aligned.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3801,7 +3829,7 @@
    "title": "Data Engineer, Conversational Shopping Data Engineering",
    "url": "https://www.adzuna.in/details/5911186939?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for data engineering, but typically requires more professional experience.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3829,7 +3857,7 @@
    "title": "Azure Data Engineer",
    "url": "https://www.adzuna.in/details/5911377560?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good data engineering role, though requires specific Azure and Snowflake stack experience.",
-   "days_live": 32,
+   "days_live": 33,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3857,7 +3885,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5908299629?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role matching candidate's Python, SQL, and pipeline development skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3885,7 +3913,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5908344579?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role matching candidate's Python, SQL, and pipeline development skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3913,7 +3941,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5908348096?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level software engineering role matching Python and Rust.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3941,7 +3969,7 @@
    "title": "Self Service Reporting, Business Analyst, Officer",
    "url": "https://www.adzuna.in/details/5908388106?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for reporting and data visualization with Power BI.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3969,7 +3997,7 @@
    "title": "Associate Software Engineer",
    "url": "https://www.adzuna.in/details/5908399004?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Entry-level software engineering role suitable for candidate's Python and Rust skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -3997,7 +4025,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5908407499?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Banking data engineering role matching candidate's financial projects and SQL skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4025,7 +4053,7 @@
    "title": "Software Development Engineer, AI Trust & Innovation",
    "url": "https://www.adzuna.in/details/5909546408?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level software engineering role matching Python backend skills.",
-   "days_live": 33,
+   "days_live": 34,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4053,7 +4081,7 @@
    "title": "Data Engineer",
    "url": "https://www.adzuna.in/details/5907431686?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Data engineering role matching candidate's pipeline development and dashboarding experience.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4081,7 +4109,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5907470443?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "General software engineering role suitable for candidate's Python and backend development skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4109,7 +4137,7 @@
    "title": "AI/ML Engineer",
    "url": "https://www.adzuna.in/details/5907470573?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good match for quantitative modeling and Python programming skills.",
-   "days_live": 34,
+   "days_live": 35,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4137,7 +4165,7 @@
    "title": "Software Engineer",
    "url": "https://www.adzuna.in/details/5897783710?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good fit for ECE background and systems-level programming skills like Rust.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4165,7 +4193,7 @@
    "title": "Data Scientist",
    "url": "https://www.adzuna.in/details/5897783755?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Strong match for data science skills, though candidate is a fresh graduate.",
-   "days_live": 41,
+   "days_live": 42,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4193,7 +4221,7 @@
    "title": "End to End Product Data Analyst",
    "url": "https://www.adzuna.in/details/5896262135?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level data analyst role matching candidate's SQL and visualization skills.",
-   "days_live": 42,
+   "days_live": 43,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4221,7 +4249,7 @@
    "title": "Business Analyst (Lokal Jobs)",
    "url": "https://www.adzuna.in/details/5896657571?utm_medium=api&utm_source=3b72f8a6",
    "why_it_fits": "Good entry-level data role, though less focused on advanced quantitative finance or engineering.",
-   "days_live": 42,
+   "days_live": 43,
    "freshness": "ageing",
    "still_open": false,
    "pay_rank": 0
@@ -4245,8 +4273,8 @@
    "title": "Machine Learning Engineer, Link",
    "url": "https://stripe.com/jobs/search?gh_jid=8197886",
    "why_it_fits": "Excellent match for machine learning skills, though Stripe typically expects industry experience.",
-   "days_live": 45,
-   "freshness": "ageing",
+   "days_live": 46,
+   "freshness": "stale",
    "still_open": false,
    "pay_rank": 0
   }
